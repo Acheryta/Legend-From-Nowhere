@@ -16,6 +16,10 @@ public class DropRateManager : MonoBehaviour
 
     void OnDestroy()
     {
+        if(!gameObject.scene.isLoaded) //Stop appear error of spawn drop item when exit play mode 
+        {
+            return;
+        }
         float randomNumber = UnityEngine.Random.Range(0f, 100f);
         List<Drops> possibleDrops = new List<Drops>();
 
