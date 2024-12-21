@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b856f064bc57b6a4aa32d0e1c2184591, type: 3}
   m_Name: Acher
   m_EditorClassIdentifier: 
+  icon: {fileID: -457770377, guid: b2402fd9d262160458b24ded564ffd24, type: 3}
+  name: Acher
   startingWeapon: {fileID: 3936482949829585127, guid: d868db7a739834d47a97b5c478c2bcec, type: 3}
-  maxHealth: 1000
+  maxHealth: 10
   moveSpeed: 5
   might: 1
   projectileSpeed: 0
