@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -145,6 +146,11 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
+    [Header("UI")]
+    public Image healthBar;
+    public Image expBar;
+    public Text levelText;
+
     public GameObject secondWeaponTest;
     public GameObject firstPassiveItemTest, secondPassiveItemTest;
     void Awake()
@@ -161,10 +167,10 @@ public class PlayerStats : MonoBehaviour
         CurrentRecovery = characterData.Recovery;
         CurrentMagnet = characterData.Magnet;
 
-        SpawnedWeapon(characterData.StartingWeapon);
-        SpawnedWeapon(secondWeaponTest);
-        SpawnedPassiveItem(firstPassiveItemTest);
-        SpawnedPassiveItem(secondPassiveItemTest);
+        SpawnWeapon(characterData.StartingWeapon);
+        //SpawnWeapon(secondWeaponTest);
+        SpawnPassiveItem(firstPassiveItemTest);
+        //SpawnPassiveItem(secondPassiveItemTest);
     }
 
     void Start()
@@ -181,6 +187,10 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
+
+        UpdateHealthBar();
+        UpdateExpBar();
+        UpdateLevelText();
     }
 
     void Update()
@@ -200,8 +210,8 @@ public class PlayerStats : MonoBehaviour
     public void IncreaseExperience(int amount)
     {
         experience += amount;
-
         LevelUpChecker();
+        UpdateExpBar();
     }
 
     void LevelUpChecker()
@@ -221,9 +231,22 @@ public class PlayerStats : MonoBehaviour
                 }
             }
             experienceCap += experienceCapIncrease;
+            UpdateLevelText();
+            GameManager.instance.StartLevelUp();
         }
     }
 
+    void UpdateExpBar()
+    {
+        //Update Exp bar
+        expBar.fillAmount = (float)experience / experienceCap;
+    }
+
+    void UpdateLevelText()
+    {
+        //Update Level text
+        levelText.text = "LV " + level.ToString();
+    }
     public void TakeDamage(float dmg)
     {
         if(!isInvincible)
@@ -237,9 +260,15 @@ public class PlayerStats : MonoBehaviour
             {
                 Kill();
             }
+            UpdateHealthBar();
         }
     }
 
+    void UpdateHealthBar()
+    {
+        //Update the health bar
+        healthBar.fillAmount = currentHealth / characterData.MaxHealth;
+    }
     public void Kill()
     {
         if(!GameManager.instance.isGameOver)
@@ -275,7 +304,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void SpawnedWeapon(GameObject weapon)
+    public void SpawnWeapon(GameObject weapon)
     {
         //Check if Inventory is full
         if(weaponIndex >= inventory.weaponSlots.Count - 1)
@@ -291,7 +320,7 @@ public class PlayerStats : MonoBehaviour
         weaponIndex++;
     }
 
-    public void SpawnedPassiveItem(GameObject passiveItem)
+    public void SpawnPassiveItem(GameObject passiveItem)
     {
         //Check if Inventory is full
         if(passiveItemIndex >= inventory.passiveItemSlots.Count - 1)

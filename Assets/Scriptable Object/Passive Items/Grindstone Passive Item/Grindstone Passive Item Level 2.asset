@@ -15,4 +15,6 @@ MonoBehaviour:
   multipler: 100
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Grindstone Level 2
+  description: Increase Might by 100%
   icon: {fileID: -665542624, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}

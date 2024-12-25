@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af7b3d9292483e347b1c2b5f389b701f, type: 3}
-  m_Name: Shield Weapon Level 2
+  m_Name: Shield Weapon Level 3
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4275050764215322386, guid: 7e25f18a19a3c7c4b86394976fed5191, type: 3}
-  damage: 5
+  prefab: {fileID: 4275050764215322386, guid: 38d220c789565634f9c2e68e4bf3f922, type: 3}
+  damage: 7
   speed: 0
   cooldownDuration: 2.5
   pierce: 0
   level: 2
-  nextLevelPrefab: {fileID: 4053298311913238786, guid: 70b7ffec4fdb7ed4e84623297302dee2, type: 3}
-  name: Shield Level 2
-  description: Reduce cooldown by 2.5
+  nextLevelPrefab: {fileID: 0}
+  name: Shield Level 3
+  description: Damge up by 2
   icon: {fileID: 2139525799, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}

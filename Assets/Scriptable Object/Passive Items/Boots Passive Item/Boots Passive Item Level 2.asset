@@ -15,4 +15,6 @@ MonoBehaviour:
   multipler: 75
   level: 2
   nextLevelPrefab: {fileID: 0}
+  name: Boots Level 2
+  description: Increase Movement Speed By 75%
   icon: {fileID: 1603012552, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}

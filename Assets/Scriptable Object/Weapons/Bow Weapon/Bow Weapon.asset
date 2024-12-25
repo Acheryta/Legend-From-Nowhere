@@ -19,4 +19,6 @@ MonoBehaviour:
   pierce: 1
   level: 1
   nextLevelPrefab: {fileID: 3936482949829585127, guid: 96989c6d2e47a674e995c9f481758613, type: 3}
+  name: Bow
+  description: Shoot arrow in the direction the player is facing
   icon: {fileID: -787377136, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}
