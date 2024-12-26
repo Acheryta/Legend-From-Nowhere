@@ -30,8 +30,9 @@ public class EnemySpawner : MonoBehaviour
     float spawnTimer; //Timer use to determine when to spawn the next enemy
     public int enemiesAlive;
     public int maxEnemiesAllowed; //The maximum of enemies on map
-    public bool maxEnemiesReached; //Flag for reach maximum of enemies
+    public bool maxEnemiesReached = false; //Flag for reach maximum of enemies
     public float waveInterval; //The interval between each wave
+    bool isWaveActive = false;
 
     [Header("Spawn Positions")]
     public List<Transform> relativeSpawnPoints; //A list relative to spawn point of enemies
@@ -47,7 +48,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0) //Check if the wave has ended and the next wave should start
+        if(currentWaveCount < waves.Count && waves[currentWaveCount].spawnCount == 0 && !isWaveActive) //Check if the wave has ended and the next wave should start
         {
             StartCoroutine(BeginNextWave());
         }
@@ -62,12 +63,14 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator BeginNextWave()
     {
+        isWaveActive = true;
         //Wait for "waveInterval" seconds before starting the next wave
         yield return new WaitForSeconds(waveInterval);
 
         //If there are more waves to start after the current wave, move on to the next wave
         if(currentWaveCount < waves.Count - 1)
         {
+            isWaveActive = false;
             currentWaveCount++;
             CaculateWaveQuota();
         }
@@ -87,7 +90,7 @@ public class EnemySpawner : MonoBehaviour
     void SpawnEnemies()
     {
         //Check if the minimum number of enemies in the wave has been spawned
-        if(waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota)
+        if(waves[currentWaveCount].spawnCount < waves[currentWaveCount].waveQuota && !maxEnemiesReached)
         {
             //Spawnn each type of enemy untill the quota is filled
             foreach(var enemyGroup in waves[currentWaveCount].enemyGroups)
@@ -95,31 +98,33 @@ public class EnemySpawner : MonoBehaviour
                 //Check if the minimum number of enemies of this type have been spawned
                 if(enemyGroup.spawnCount < enemyGroup.enemyCount)
                 {
-                    //Limit the number of enemies
-                    if(enemiesAlive >= maxEnemiesAllowed)
-                    {
-                        maxEnemiesReached = true;
-                        return;
-                    }
                     //Spawn randomly enemy close to player position
                     Instantiate(enemyGroup.enemyPrefab, player.position + relativeSpawnPoints[Random.Range(0, relativeSpawnPoints.Count)].position,Quaternion.identity);
 
                     enemyGroup.spawnCount++;
                     waves[currentWaveCount].spawnCount++;
                     enemiesAlive++;
+
+                    //Limit the number of enemies
+                    if(enemiesAlive >= maxEnemiesAllowed)
+                    {
+                        maxEnemiesReached = true;
+                        return;
+                    }
                 }
 
             }
-        }
-        //Reset the maxEnemiesReached
-        if(enemiesAlive < maxEnemiesAllowed)
-        {
-            maxEnemiesReached = false;
         }
     }
 
     public void OnEnemyKilled()
     {
         enemiesAlive--;
+        
+        //Reset the maxEnemiesReached
+        if(enemiesAlive < maxEnemiesAllowed)
+        {
+            maxEnemiesReached = false;
+        }
     }
 }

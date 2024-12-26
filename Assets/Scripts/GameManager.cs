@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -25,25 +26,25 @@ public class GameManager : MonoBehaviour
     public GameObject levelUpScreen;
 
     [Header("Current Stat Displays")]
-    public Text currentHealthDisplay;
-    public Text currentRecoveryDisplay;
-    public Text currentMoveSpeedDisplay;
-    public Text currentMightDisplay;
-    public Text currentProjectileSpeedDisplay;
-    public Text currentMagnetDisplay;
+    public TMP_Text currentHealthDisplay;
+    public TMP_Text currentRecoveryDisplay;
+    public TMP_Text currentMoveSpeedDisplay;
+    public TMP_Text currentMightDisplay;
+    public TMP_Text currentProjectileSpeedDisplay;
+    public TMP_Text currentMagnetDisplay;
 
     [Header("Result Screen Displays")]
     public Image chosenCharacterImage;
-    public Text chosenCharacterName;
-    public Text levelReachedDisplay;
-    public Text timeSurvivedDisplay;
+    public TMP_Text chosenCharacterName;
+    public TMP_Text levelReachedDisplay;
+    public TMP_Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(4);
     public List<Image> chosenPassiveItemsUI = new List<Image>(4);
 
     [Header("Stopwatch")]
     public float timeLimit; //The time limit in second
     float stopwatchTime;    //The current time
-    public Text stopwatchDisplay;
+    public TMP_Text stopwatchDisplay;
 
     //Flag
     public bool isGameOver = false;
@@ -221,7 +222,7 @@ public class GameManager : MonoBehaviour
 
         if(stopwatchTime > timeLimit)
         {
-            GameOver();
+            playerObject.SendMessage("Kill");
         }
     }
 
