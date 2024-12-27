@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7b3d9292483e347b1c2b5f389b701f, type: 3}
+  m_Name: Evolved Bow Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8449951524821221249, guid: 557181a5f53cc8e4ca3638a24770ef80, type: 3}
+  damage: 10
+  speed: 15
+  cooldownDuration: 1.5
+  pierce: 2
+  level: 0
+  nextLevelPrefab: {fileID: 0}
+  name: 
+  description: 
+  icon: {fileID: 1590331580, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}
