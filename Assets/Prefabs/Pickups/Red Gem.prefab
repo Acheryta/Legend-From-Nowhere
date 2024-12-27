@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3163558655776268876}
   - component: {fileID: 6893145787982864912}
   - component: {fileID: 1151003920912205318}
+  - component: {fileID: 2854351816012852275}
   m_Layer: 0
   m_Name: Red Gem
   m_TagString: Untagged
@@ -172,3 +173,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   experienceGranted: 200
+--- !u!114 &2854351816012852275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753723426735707751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15ef3c15deb7d64e94bf0333a2f4380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frequency: 3
+  magnitude: 0.1
+  direction: {x: 0, y: 1, z: 0}

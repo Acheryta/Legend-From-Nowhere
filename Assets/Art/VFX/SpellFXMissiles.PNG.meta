@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,3199 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpellFXMissiles_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 558
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe0abf557b21714abbb69419f1fac62
+      internalID: 970134433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 565
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521037bdc3bf934418911a70dd379e34
+      internalID: 180223621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 571
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7599e42c4f2cb4088b8ea57375ef37
+      internalID: -782522337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 572
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03728b7de5d3dd942ad186cb46fd635f
+      internalID: 198281984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 572
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae66104897c0a4792cd3b2b8aa06a5
+      internalID: -295013862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 572
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4b26580d876e6478f5c8a56925f1ab
+      internalID: -2125393648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 571
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d22d0a4a31461458abcbe2ddfc614b
+      internalID: -340211258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 565
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cd7e3e5b014474b8b3449436bf68b2
+      internalID: -813572395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 528
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e97302434917b46b792b0573ce3f46
+      internalID: -1130854476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 535
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff83440f52e3649aeaace21f059ee9
+      internalID: -1195509213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 540
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79d8a8aead3b1446ac0d9b153066e57
+      internalID: 1578460412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 541
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b52df795106c142a299c5d40d0349f
+      internalID: -1620694775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 541
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d64a8c2db2adbd43b8aefebe870ddd6
+      internalID: 222896225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 541
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb48d5514d6fbd447a399be67d1ec5f8
+      internalID: -942132933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 540
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655ea0d90b987a4bacbd08c500e8187
+      internalID: -709578217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 535
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74dcdd103bd3e14ea53bebb180f74fc
+      internalID: -934127439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 497
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53386d272675947489b9caf74b315eb1
+      internalID: 2003018327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 504
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5449ff4a277924099573187fdd708f
+      internalID: -1349762145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 507
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f886ce3a55ed8743bb454c496757ac4
+      internalID: -1310805522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_19
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 509
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee3b857c766fb84f9961baa8e022888
+      internalID: 465176958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 507
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2f526eff15d184f917c1a072aba605
+      internalID: -1210204006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 509
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece68b5cfc95186428cb4816c897b1e1
+      internalID: -719645641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 507
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb78629abd0ff047ba60698be06026e
+      internalID: -264467477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 504
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c226c37f8d5616a4dac6c064a2decf10
+      internalID: -1444300465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 465
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a14a06ff841d4d98dd069b46978d0
+      internalID: -1296925940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 472
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3a6dc3072c7e249af35e34ffd8d20d
+      internalID: -447129244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 477
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d735b374c0516a54fb87d05603a6bc45
+      internalID: 555633190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_27
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 478
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b50ef96f0e861f48ae3981ffa3ead8e
+      internalID: 216485936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 478
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1f898feacfeca4289381b088583830
+      internalID: -2039833167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 478
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fee4aeb77a29c4aafed1507f035456
+      internalID: 1358209293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 477
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1edfd9d503a0734ea9aad6aba1e7bb1
+      internalID: -161627301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 472
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eae31effd59754598f568471a366cb
+      internalID: 398365151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 434
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33110301673c5a74996d3d449d50b74a
+      internalID: 958568637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 442
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ffb0b9879801a4d8c28342d96b294e
+      internalID: -1262356843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_34
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 446
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5dfd2f6fc90c4abfbbd3db8bb69cf
+      internalID: 1676996086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_35
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 446
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f55972486ede4594ab8723d35d046
+      internalID: -523326279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 446
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f7520f71ef3774eb7b2d4768e490cb
+      internalID: -1803526784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 446
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5dceb0de1cb814caeee00f463dbc31
+      internalID: 1888249852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_38
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 446
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caaf914fd93a954680e392b9adbf487
+      internalID: 1565852856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 442
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ae19075fb95f1469bd6b467f089a2a
+      internalID: 997377043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_40
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 405
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5186256c97ce36140a9d8e2d3b6ef1fd
+      internalID: 1640799739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 410
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e83b1ab1c7a05f4ba61e051046570b3
+      internalID: -976692831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 415
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76bcf993e5b816489ce7661e02f87b3
+      internalID: 437534886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 416
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a5d2419d98364b8ca5281a029660d
+      internalID: -695889895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 416
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1472d1b39696c45846d1d1ca10f87b
+      internalID: 1220640605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_45
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 416
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c8546258e81d4a9093b0ffc1ad0da
+      internalID: -2143822813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_46
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 415
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2164a3356de6d44098fd428b212d599
+      internalID: -62686150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 410
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dad15b3baecca4ba6b3cd5b355de7b
+      internalID: 713684816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 372
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b77664d3b7c9c418eb029c1e9c4cdf
+      internalID: 248808283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 380
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a5440c1d8acb245bf493fa69c72303
+      internalID: -746608773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 383
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690f531ec7c2e144eae6d363020405fb
+      internalID: 444826852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 384
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20dd30379169a349a2338116986f305
+      internalID: -275611730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 384
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b416b46f2187caf48b6f5e39b625cd06
+      internalID: 202268006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 384
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10456b7f24b1cf048b20ca7b37bcfba4
+      internalID: -828364404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_54
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 383
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b070f2bc576c2b4f9cb49aafd7c7984
+      internalID: -1142212476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 380
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b9e050359ba8343b37fa6a39ca24cc
+      internalID: -112135204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 342
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2cd31234f89134bad219b279caf32f
+      internalID: -73295494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22f4013ef00cea4d9b8643ada14a3e6
+      internalID: -1389002058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_58
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 355
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169aa5e0fda079349a7ca69df3fb5bca
+      internalID: 2118186488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_59
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 355
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efd9b138fa822d408527b09ce9dec63
+      internalID: 1550159530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 352
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5157d7a135cda12488af254bb3cb61ae
+      internalID: -208396783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 355
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ea7a60cbaff24196131211dba76db
+      internalID: 1774314770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_62
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 355
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe56e7fd544fada4b86503d845c85bf0
+      internalID: -2012913099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_63
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 348
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e921137f7a82d4e8965078a6b23c88
+      internalID: -2000056353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_64
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 310
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775d93e97dd10074ab5495ff13adffcd
+      internalID: 408180527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_65
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 318
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec3a2d72067234ba384cfa47466b13
+      internalID: 1598330788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_66
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 321
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bd39804ff07ff4a9aca19a06eaa512
+      internalID: -1469635936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_67
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 322
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498905506c732d4690af66056051d67
+      internalID: 803499866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_68
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 322
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a391fa1ba6f5d7d42a53372209fa313b
+      internalID: -1466794302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_69
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 322
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa10f98c4ebed3f41926ae0b359b2172
+      internalID: -901025728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_70
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 321
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae9301c044aa0b4d8168e1e7b9e1bd2
+      internalID: -492439447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_71
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 318
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eff653f4daaefb4a96dfbf728183af1
+      internalID: 199943312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 280
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761c5db3bdca4684a87c6410a9b757a0
+      internalID: -157130504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 285
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897621d1429c0c64bbc38a67995e4e8d
+      internalID: 943549298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_74
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 292
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf640fcd277774eb049baf8de231f3
+      internalID: 1954883418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 291
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf83e100cd56caf4695c10410248cab4
+      internalID: -234941778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 290
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9895bf2108ecf3946882128216711ae9
+      internalID: 772897258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_77
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 291
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27539e0bc4253eb46ad0fffe774a3c53
+      internalID: -2133576641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 292
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07705dc100e1cf74cbff11125c1e37c5
+      internalID: 214299417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 285
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4fba1454702df489f55581aa880d98
+      internalID: -1548042031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 249
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed85f3548574c449a2be2b8ff0d4c63
+      internalID: -1994999940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 257
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3989f866472544ca6ac6e9bff7397e
+      internalID: 1191609096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_82
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 259
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dc31c78a125ea44bd24812ee85a690
+      internalID: 843378209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_83
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 259
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68cb8e7ee87eb7488b16a964f0a45f9
+      internalID: 555832675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_84
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 257
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8d9291235259648af0ffa436c83027
+      internalID: 287456087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_85
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 259
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f65c46e0bdd5479107dc5204efa78
+      internalID: 1551254471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_86
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 258
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f12140e9df104690efb7458425dbb
+      internalID: -1038535366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_87
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 257
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996e1bb718b746544a8a959e12e8b441
+      internalID: 1473804593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_88
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 217
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96356cb7efd80604ea23de40d561cb09
+      internalID: 912372688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc6dd6e0471d2345b7246f6da87ee74
+      internalID: -436340646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_90
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 228
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c9dc891393e78459ff7bf2081e06e7
+      internalID: -1658820995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 230
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca222db106c2764cafca9e244b5c318
+      internalID: 2144977750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_92
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 227
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fae9a220c6f704da49d997c72e48c7
+      internalID: -246805125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_93
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 230
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af26c1a79862841af8c6010e2edefe
+      internalID: -1948865593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_94
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 228
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd5da1cd17e86f47bed60d4b9470e7f
+      internalID: 1505304115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_95
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 224
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2defd3705c5730d4fbf099cca1dc47fa
+      internalID: 1580337142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_96
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 187
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d52569271c71c4aaaadbaae21a5419
+      internalID: -1290951894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 195
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ec296926f7b6b47825fcf594731153
+      internalID: -1219482063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_98
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 198
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c664e3431ded994b9c3352f21aaa5b7
+      internalID: 1209756997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_99
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 198
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a29101b112bf84ca21a522f6e7d054
+      internalID: 989591994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_100
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 198
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df834736a3ca3ad47a0ede58e3cb23e8
+      internalID: 1793621662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 198
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0401e424ea5e14e8f9629d90d4db33
+      internalID: -1626007315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_102
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 198
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c73cc35595ac3d4b8b9b91f1371981b
+      internalID: -2132137895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_103
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 195
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261b23778286cc64e9e82d13a5b52daa
+      internalID: -744605442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_104
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 156
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2111f9d12df464eb1073fffc4e7600
+      internalID: -1289669179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_105
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 164
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1d374af7579846b320291cbe5d49e
+      internalID: -18296656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_106
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79fbf884adee2f4e8fa3dd1eb4d2652
+      internalID: 427169902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_107
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 167
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3062188815fd33b4db89d7edef72993b
+      internalID: -64072807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_108
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 167
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f2d06939338b4fbec6a465a4a767c
+      internalID: 973809580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_109
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 167
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400982448a37a36498a9099084564395
+      internalID: 1753850345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_110
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 167
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1173aebac0589c1479dd5b527ccacea6
+      internalID: -678911163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_111
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 164
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4868f9e9f2893c442b9020f56e487d9d
+      internalID: 220435055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_112
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 125
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20cc36cab62a844abe2364d03f13342
+      internalID: 1212238751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 133
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b3e3aab6d8d0c4aa37bb5612b43256
+      internalID: 1537643079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_114
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 134
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafee19bee180b543aeeaacdf6204281
+      internalID: -526269417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_115
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 134
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707aa42aef812f4cbccb7947d79fdac
+      internalID: -1824956587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_116
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 134
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8bdcfd988591c428a943502604fad9
+      internalID: -1542598832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_117
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 134
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90ce5e74a59636498cd1a026a67aa4e
+      internalID: 1995535574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_118
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 134
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf4ea02091217840bcfd8df7b2894ed
+      internalID: -2129924107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_119
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 133
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c793131101615540b50137477ab39a4
+      internalID: 1625604512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_120
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 93
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2177ec2e63505b42bb7c43f2ca70ba4
+      internalID: 433819057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_121
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 97
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61bb67e423d39e45bc860dd6cacefea
+      internalID: -599942609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_122
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11cb2ee2ec7e154fac2f53cd5b6e337
+      internalID: 93295128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_123
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 97
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cacd45362436145b2e79e552bc7d71
+      internalID: -1186196473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_124
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 98
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e96ac4a839d3749b6a1663b3d1e242
+      internalID: -725824013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_125
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 97
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92547074d52dd4c4f8f70ed214573284
+      internalID: -1419272006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510fed75ae08b594a8dd635206c34f99
+      internalID: -574196399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_127
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 96
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710730074b7c21749aeed5bb299e6add
+      internalID: 1126554592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_128
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 68
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67acdff48c0be84799c972f9addec5c
+      internalID: 256332431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_129
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 68
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12d8bfba59b4d49be214dcf18a24bf
+      internalID: -1717247425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb49d74268a93cf40bb07d26bfd74a12
+      internalID: 477260145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_131
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 68
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee0965926813404ea3560e11ebdaef7
+      internalID: -1242738004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 68
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc404b1c65924045907e71db88a2ddc
+      internalID: -49470960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_133
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 68
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de2a7af0e701504291e9821e02eb163
+      internalID: -583108415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_134
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 67
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f245e8709102845a92211236b4a101
+      internalID: -1069734725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_135
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 68
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca36cd68eff3944eacfa81dab2c4bdb
+      internalID: 188975621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_136
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 31
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f5aa12768d2294f9d1ef62851c0f76
+      internalID: -356091699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_137
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 35
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8084af8061ccc944bcebb98aac9fa11
+      internalID: -1151881433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_138
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 39
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409f82fb0b4442d4092b77f4f990245f
+      internalID: 1203992907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_139
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368a0088bb43bf489565067bbdb27fb
+      internalID: -1925668610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_140
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ee3c5f90a8fd041a710675192727df
+      internalID: 792768485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_141
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 39
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98af7a7b0421e894181bd5ec721ad7e2
+      internalID: -1603376425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_142
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 39
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ef19d5f907517459ad3a35bec03f12
+      internalID: -787752552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_143
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 34
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e23a5862b6bedb4886628c2c2028fe4
+      internalID: -1340478964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_144
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7825c9330795b1c49bdc7ed1d143af7d
+      internalID: 1460972291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_145
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b228a794f2a58d1468a03ac3b6ae3b6d
+      internalID: -1263868635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_146
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf50f436345d05347bd90c340f49983d
+      internalID: -891530988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_147
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94eda0f81082d94bb85aeaa1dd0abf1
+      internalID: -2068517630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_148
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 6
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d474f0859d9e5499d65a5979c8acdc
+      internalID: 519295432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4382716eae1e6d74c90e6cec7846a28a
+      internalID: 1040439781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42171502a643bc14bb4fa9f0f9747776
+      internalID: -1909141146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXMissiles_151
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 5
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4ea8ae6e13bd4cb693321dad50d04
+      internalID: -227007963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +3311,159 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpellFXMissiles_0: 970134433
+      SpellFXMissiles_1: 180223621
+      SpellFXMissiles_10: 1578460412
+      SpellFXMissiles_100: 1793621662
+      SpellFXMissiles_101: -1626007315
+      SpellFXMissiles_102: -2132137895
+      SpellFXMissiles_103: -744605442
+      SpellFXMissiles_104: -1289669179
+      SpellFXMissiles_105: -18296656
+      SpellFXMissiles_106: 427169902
+      SpellFXMissiles_107: -64072807
+      SpellFXMissiles_108: 973809580
+      SpellFXMissiles_109: 1753850345
+      SpellFXMissiles_11: -1620694775
+      SpellFXMissiles_110: -678911163
+      SpellFXMissiles_111: 220435055
+      SpellFXMissiles_112: 1212238751
+      SpellFXMissiles_113: 1537643079
+      SpellFXMissiles_114: -526269417
+      SpellFXMissiles_115: -1824956587
+      SpellFXMissiles_116: -1542598832
+      SpellFXMissiles_117: 1995535574
+      SpellFXMissiles_118: -2129924107
+      SpellFXMissiles_119: 1625604512
+      SpellFXMissiles_12: 222896225
+      SpellFXMissiles_120: 433819057
+      SpellFXMissiles_121: -599942609
+      SpellFXMissiles_122: 93295128
+      SpellFXMissiles_123: -1186196473
+      SpellFXMissiles_124: -725824013
+      SpellFXMissiles_125: -1419272006
+      SpellFXMissiles_126: -574196399
+      SpellFXMissiles_127: 1126554592
+      SpellFXMissiles_128: 256332431
+      SpellFXMissiles_129: -1717247425
+      SpellFXMissiles_13: -942132933
+      SpellFXMissiles_130: 477260145
+      SpellFXMissiles_131: -1242738004
+      SpellFXMissiles_132: -49470960
+      SpellFXMissiles_133: -583108415
+      SpellFXMissiles_134: -1069734725
+      SpellFXMissiles_135: 188975621
+      SpellFXMissiles_136: -356091699
+      SpellFXMissiles_137: -1151881433
+      SpellFXMissiles_138: 1203992907
+      SpellFXMissiles_139: -1925668610
+      SpellFXMissiles_14: -709578217
+      SpellFXMissiles_140: 792768485
+      SpellFXMissiles_141: -1603376425
+      SpellFXMissiles_142: -787752552
+      SpellFXMissiles_143: -1340478964
+      SpellFXMissiles_144: 1460972291
+      SpellFXMissiles_145: -1263868635
+      SpellFXMissiles_146: -891530988
+      SpellFXMissiles_147: -2068517630
+      SpellFXMissiles_148: 519295432
+      SpellFXMissiles_149: 1040439781
+      SpellFXMissiles_15: -934127439
+      SpellFXMissiles_150: -1909141146
+      SpellFXMissiles_151: -227007963
+      SpellFXMissiles_16: 2003018327
+      SpellFXMissiles_17: -1349762145
+      SpellFXMissiles_18: -1310805522
+      SpellFXMissiles_19: 465176958
+      SpellFXMissiles_2: -782522337
+      SpellFXMissiles_20: -1210204006
+      SpellFXMissiles_21: -719645641
+      SpellFXMissiles_22: -264467477
+      SpellFXMissiles_23: -1444300465
+      SpellFXMissiles_24: -1296925940
+      SpellFXMissiles_25: -447129244
+      SpellFXMissiles_26: 555633190
+      SpellFXMissiles_27: 216485936
+      SpellFXMissiles_28: -2039833167
+      SpellFXMissiles_29: 1358209293
+      SpellFXMissiles_3: 198281984
+      SpellFXMissiles_30: -161627301
+      SpellFXMissiles_31: 398365151
+      SpellFXMissiles_32: 958568637
+      SpellFXMissiles_33: -1262356843
+      SpellFXMissiles_34: 1676996086
+      SpellFXMissiles_35: -523326279
+      SpellFXMissiles_36: -1803526784
+      SpellFXMissiles_37: 1888249852
+      SpellFXMissiles_38: 1565852856
+      SpellFXMissiles_39: 997377043
+      SpellFXMissiles_4: -295013862
+      SpellFXMissiles_40: 1640799739
+      SpellFXMissiles_41: -976692831
+      SpellFXMissiles_42: 437534886
+      SpellFXMissiles_43: -695889895
+      SpellFXMissiles_44: 1220640605
+      SpellFXMissiles_45: -2143822813
+      SpellFXMissiles_46: -62686150
+      SpellFXMissiles_47: 713684816
+      SpellFXMissiles_48: 248808283
+      SpellFXMissiles_49: -746608773
+      SpellFXMissiles_5: -2125393648
+      SpellFXMissiles_50: 444826852
+      SpellFXMissiles_51: -275611730
+      SpellFXMissiles_52: 202268006
+      SpellFXMissiles_53: -828364404
+      SpellFXMissiles_54: -1142212476
+      SpellFXMissiles_55: -112135204
+      SpellFXMissiles_56: -73295494
+      SpellFXMissiles_57: -1389002058
+      SpellFXMissiles_58: 2118186488
+      SpellFXMissiles_59: 1550159530
+      SpellFXMissiles_6: -340211258
+      SpellFXMissiles_60: -208396783
+      SpellFXMissiles_61: 1774314770
+      SpellFXMissiles_62: -2012913099
+      SpellFXMissiles_63: -2000056353
+      SpellFXMissiles_64: 408180527
+      SpellFXMissiles_65: 1598330788
+      SpellFXMissiles_66: -1469635936
+      SpellFXMissiles_67: 803499866
+      SpellFXMissiles_68: -1466794302
+      SpellFXMissiles_69: -901025728
+      SpellFXMissiles_7: -813572395
+      SpellFXMissiles_70: -492439447
+      SpellFXMissiles_71: 199943312
+      SpellFXMissiles_72: -157130504
+      SpellFXMissiles_73: 943549298
+      SpellFXMissiles_74: 1954883418
+      SpellFXMissiles_75: -234941778
+      SpellFXMissiles_76: 772897258
+      SpellFXMissiles_77: -2133576641
+      SpellFXMissiles_78: 214299417
+      SpellFXMissiles_79: -1548042031
+      SpellFXMissiles_8: -1130854476
+      SpellFXMissiles_80: -1994999940
+      SpellFXMissiles_81: 1191609096
+      SpellFXMissiles_82: 843378209
+      SpellFXMissiles_83: 555832675
+      SpellFXMissiles_84: 287456087
+      SpellFXMissiles_85: 1551254471
+      SpellFXMissiles_86: -1038535366
+      SpellFXMissiles_87: 1473804593
+      SpellFXMissiles_88: 912372688
+      SpellFXMissiles_89: -436340646
+      SpellFXMissiles_9: -1195509213
+      SpellFXMissiles_90: -1658820995
+      SpellFXMissiles_91: 2144977750
+      SpellFXMissiles_92: -246805125
+      SpellFXMissiles_93: -1948865593
+      SpellFXMissiles_94: 1505304115
+      SpellFXMissiles_95: 1580337142
+      SpellFXMissiles_96: -1290951894
+      SpellFXMissiles_97: -1219482063
+      SpellFXMissiles_98: 1209756997
+      SpellFXMissiles_99: 989591994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
