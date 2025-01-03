@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.Mathematics;
 public class PlayerStats : MonoBehaviour
 {
     CharacterScriptableObject characterData;
@@ -119,6 +120,8 @@ public class PlayerStats : MonoBehaviour
     }
     #endregion
 
+    public ParticleSystem damageEffect;
+    
     //Experience and level of the player
     [Header("Experience/Level")]
     public int experience = 0;
@@ -251,6 +254,12 @@ public class PlayerStats : MonoBehaviour
             isInvincible = true;
 
             CurrentHealth -= dmg;
+
+            if(damageEffect)
+            {
+                Instantiate(damageEffect, transform.position, Quaternion.identity);
+            }
+
             if(CurrentHealth <= 0)
             {
                 Kill();

@@ -17,7 +17,7 @@ public class ShieldBehavior : MeeleWeaponBehavior
         if(col.CompareTag("Enemy") && !markedEnemies.Contains(col.gameObject))
         {
             EnemyStats enemy = col.GetComponent<EnemyStats>();
-            enemy.TakeDamage(GetCurrentDamage());
+            enemy.TakeDamage(GetCurrentDamage(), transform.position);
 
             markedEnemies.Add(col.gameObject); //Mark it so it doesn't take another instance damage 
         }
