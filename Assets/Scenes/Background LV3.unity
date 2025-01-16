@@ -325,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Chunk 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3704637281958948601, guid: d01c949e14e8b3e47ae0303840db4a13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.47
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
