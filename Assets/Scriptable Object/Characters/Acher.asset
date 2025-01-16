@@ -9,15 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b856f064bc57b6a4aa32d0e1c2184591, type: 3}
+  m_Script: {fileID: 11500000, guid: 17019ff33087625439f143af722e6658, type: 3}
   m_Name: Acher
   m_EditorClassIdentifier: 
-  icon: {fileID: -457770377, guid: b2402fd9d262160458b24ded564ffd24, type: 3}
+  icon: {fileID: -58622142, guid: d136755bc294dcf4db8b2f42a19ef55d, type: 3}
+  controller: {fileID: 22100000, guid: b019cebcbc9dc13499aed1fc8d0bab1f, type: 2}
   name: Acher
-  startingWeapon: {fileID: 3936482949829585127, guid: d868db7a739834d47a97b5c478c2bcec, type: 3}
-  maxHealth: 1000
-  moveSpeed: 5
-  might: 1
-  projectileSpeed: 0
-  recovery: 1
-  magnet: 1.6
+  startingWeapon: {fileID: 11400000, guid: faa8a0a15f166c4498d5d7205e1c6256, type: 2}
+  stats:
+    maxHealth: 1000
+    recovery: 0
+    moveSpeed: 5
+    might: 1
+    speed: 1
+    magnet: 5

@@ -614,7 +614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_24
+      name: Armor
       rect:
         serializedVersion: 2
         x: 259
@@ -1853,7 +1853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_83
+      name: Golden arrow
       rect:
         serializedVersion: 2
         x: 166
@@ -2042,7 +2042,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_92
+      name: arrow
       rect:
         serializedVersion: 2
         x: 454
@@ -2714,7 +2714,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_124
+      name: Helmet
       rect:
         serializedVersion: 2
         x: 362
@@ -3218,7 +3218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_148
+      name: Crossbow
       rect:
         serializedVersion: 2
         x: 99
@@ -5780,7 +5780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_270
+      name: Necklace
       rect:
         serializedVersion: 2
         x: 391
@@ -14282,7 +14282,6 @@ TextureImporter:
       01_121: 1250101178
       01_122: 391942420
       01_123: 78307023
-      01_124: -1131184192
       01_125: 2079872319
       01_126: -2014972187
       01_127: 1459314760
@@ -14308,7 +14307,6 @@ TextureImporter:
       01_145: -864566538
       01_146: -1901577169
       01_147: -1062651814
-      01_148: 1590331580
       01_149: 879544373
       01_15: 1361850379
       01_150: 2031283564
@@ -14409,7 +14407,6 @@ TextureImporter:
       01_237: 1955614813
       01_238: 1843638875
       01_239: -1599795097
-      01_24: -885397809
       01_240: 671510338
       01_241: 545115445
       01_242: 1795454442
@@ -14443,7 +14440,6 @@ TextureImporter:
       01_268: -516955218
       01_269: -358389405
       01_27: 1431218422
-      01_270: 810677959
       01_271: -625146363
       01_272: -1067194939
       01_273: 104395631
@@ -14905,7 +14901,6 @@ TextureImporter:
       01_80: -1199305770
       01_81: 54535841
       01_82: -843670156
-      01_83: -1524193505
       01_84: 193763512
       01_85: 1488421781
       01_86: 1538160404
@@ -14915,17 +14910,22 @@ TextureImporter:
       01_9: 1762489999
       01_90: 234992674
       01_91: 949277699
-      01_92: -1455930767
       01_93: -690360274
       01_94: 62545441
       01_96: -171385836
       01_97: 1347591958
       01_98: -421491737
+      Armor: -885397809
       Arrow: -185812472
       Boots Passive Item: 1603012552
       Bow Weapon: -787377136
+      Crossbow: 1590331580
+      Golden arrow: -1524193505
       Grindstone Passive Item: -665542624
+      Helmet: -1131184192
+      Necklace: 810677959
       Shield Weapon: 2139525799
+      arrow: -1455930767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

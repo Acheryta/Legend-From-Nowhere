@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2445a6d441180e4699be43603a48f7c, type: 3}
+  m_Name: Crossbow
+  m_EditorClassIdentifier: 
+  icon: {fileID: 1590331580, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}
+  maxLevel: 8
+  evolutionData: []
+  behaviour: ProjectileWeapon
+  baseStats:
+    name: Crossbow
+    description: Fires a bunch of arrow in the faced direction.
+    projectilePrefab: {fileID: -8449677120667760314, guid: 85cc19b5d9b627148bc1c06e486c56df, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 3.5
+    damage: 13
+    damageVariance: 5
+    area: 1
+    speed: 15
+    cooldown: 0.8
+    projectileInteval: 0.1
+    knockback: 0.5
+    number: 10
+    piercing: 1
+    maxInstances: 100
+  linearGrowth:
+  - name: Level 2
+    description: Reduce cooldown 10%
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.1
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 3
+    description: Base damage up by 5
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 4
+    description: Make arrow piecing more 1
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+  - name: Level 5
+    description: Increase number of arrow can be shoot
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 5
+    piercing: 0
+    maxInstances: 0
+  randomGrowth:
+  - name: Cooldown upgrade
+    description: Reduce cooldown 10%
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.1
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Damage upgrade
+    description: Base damage up by 5
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Piercing upgrade
+    description: Make arrow piecing more 1
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+  - name: Amount upgrade
+    description: Increase number of arrow can be shoot
+    projectilePrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInteval: 0
+    knockback: 0
+    number: 5
+    piercing: 0
+    maxInstances: 0
