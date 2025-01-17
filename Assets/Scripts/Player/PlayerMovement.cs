@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -19,6 +20,31 @@ public class PlayerMovement : MonoBehaviour
     //References
     Rigidbody2D rb;
     PlayerStats player;
+    public PlayerInputActions playerControls;
+    private InputAction move;
+    private InputAction fire;
+
+    private void Awake()
+    {
+        playerControls = new PlayerInputActions();
+    }
+
+    private void OnEnable()
+    {
+        move = playerControls.Player.Move;
+        move.Enable();
+
+        fire = playerControls.Player.Fire;
+        fire.Enable();
+        fire.performed += Fire;
+    }
+    private void OnDisable()
+    {
+        move.Disable();
+        fire.Disable();
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,10 +70,10 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        //float moveX = Input.GetAxisRaw("Horizontal");
+        //float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDir = new Vector2(moveX,moveY).normalized;
+        moveDir = move.ReadValue<Vector2>();
 
         if(moveDir.x != 0)
         {
@@ -74,5 +100,10 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         rb.velocity = moveDir * DEFAULT_MOVESPEED * player.Stats.moveSpeed;
+    }
+
+    private void Fire(InputAction.CallbackContext context)
+    {
+        Debug.Log("Character fired");
     }
 }
