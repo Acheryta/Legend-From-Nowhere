@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17019ff33087625439f143af722e6658, type: 3}
+  m_Name: Sword Man
+  m_EditorClassIdentifier: 
+  icon: {fileID: -1149831400, guid: 009a32cec440ed84f9641e74885d6153, type: 3}
+  controller: {fileID: 22100000, guid: 42f2d07d30bbaa144ba15cd2e95f5555, type: 2}
+  name: Sword Man
+  startingWeapon: {fileID: 11400000, guid: 2e6f2c1a4e7dcbf449d27e7b877fcfb2, type: 2}
+  stats:
+    maxHealth: 1250
+    recovery: 0.2
+    moveSpeed: 5
+    might: 1
+    speed: 1
+    magnet: 3

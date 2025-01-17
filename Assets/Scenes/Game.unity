@@ -2082,7 +2082,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
@@ -2091,14 +2090,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2134,7 +2125,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10.16024
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2159,7 +2150,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.63, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3705,7 +3696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79880dfc9feac9b438a70b795e37183f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pullSpeed: 300
+  pullSpeed: 10
 --- !u!1 &764951981
 GameObject:
   m_ObjectHideFlags: 0
@@ -4209,6 +4200,7 @@ GameObject:
   - component: {fileID: 903741362}
   - component: {fileID: 903741364}
   - component: {fileID: 903741366}
+  - component: {fileID: 903741367}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4349,7 +4341,7 @@ Transform:
   m_GameObject: {fileID: 903741356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4491,6 +4483,9 @@ MonoBehaviour:
   availableWeapons:
   - {fileID: 11400000, guid: faa8a0a15f166c4498d5d7205e1c6256, type: 2}
   - {fileID: 11400000, guid: 5f042eb4a32db844da946b5b6c2652d4, type: 2}
+  - {fileID: 11400000, guid: 2e6f2c1a4e7dcbf449d27e7b877fcfb2, type: 2}
+  - {fileID: 11400000, guid: 487b4c8409d1b8e45b247dd10e3c1cc3, type: 2}
+  - {fileID: 11400000, guid: 2c0afdc6de1bcde43b56e29de80c0caa, type: 2}
   availablePassives:
   - {fileID: 11400000, guid: 6b59ff193e2bdad4c8e6eca826118a9b, type: 2}
   - {fileID: 11400000, guid: 364b76bb061b6224bb2e38979375e73b, type: 2}
@@ -4510,6 +4505,14 @@ MonoBehaviour:
     upgradeDescriptionDisplay: {fileID: 1947416411}
     upgradeIcon: {fileID: 1082097454}
     upgradeButton: {fileID: 1705380985}
+--- !u!81 &903741367
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903741356}
+  m_Enabled: 1
 --- !u!1 &930378130
 GameObject:
   m_ObjectHideFlags: 0

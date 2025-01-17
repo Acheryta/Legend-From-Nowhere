@@ -1601,7 +1601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_71
+      name: Axe
       rect:
         serializedVersion: 2
         x: 227
@@ -7796,7 +7796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_366
+      name: Water Ring
       rect:
         serializedVersion: 2
         x: 393
@@ -12269,7 +12269,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01_579
+      name: Sword
       rect:
         serializedVersion: 2
         x: 42
@@ -14545,7 +14545,6 @@ TextureImporter:
       01_363: 1793747091
       01_364: -1906382978
       01_365: 77131922
-      01_366: 1516086770
       01_367: 723239656
       01_368: -801569519
       01_369: 1956277947
@@ -14779,7 +14778,6 @@ TextureImporter:
       01_576: 1249978094
       01_577: -1376873806
       01_578: -1423295409
-      01_579: -1139186702
       01_58: -710191970
       01_580: -976942610
       01_581: 264301215
@@ -14888,7 +14886,6 @@ TextureImporter:
       01_69: 1790342036
       01_7: -548125737
       01_70: 98233949
-      01_71: -1357590582
       01_72: 1372116342
       01_73: 801009317
       01_74: 1860940719
@@ -14917,6 +14914,7 @@ TextureImporter:
       01_98: -421491737
       Armor: -885397809
       Arrow: -185812472
+      Axe: -1357590582
       Boots Passive Item: 1603012552
       Bow Weapon: -787377136
       Crossbow: 1590331580
@@ -14925,6 +14923,8 @@ TextureImporter:
       Helmet: -1131184192
       Necklace: 810677959
       Shield Weapon: 2139525799
+      Sword: -1139186702
+      Water Ring: 1516086770
       arrow: -1455930767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

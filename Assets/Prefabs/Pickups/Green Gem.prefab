@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 369212645848056255}
   - component: {fileID: 7556432270262549649}
   - component: {fileID: 5660108380685473794}
-  - component: {fileID: 7645792477334752985}
-  - component: {fileID: 8119911917525897727}
+  - component: {fileID: 3472568188787950420}
   m_Layer: 0
   m_Name: Green Gem
   m_TagString: Untagged
@@ -160,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7645792477334752985
+--- !u!114 &3472568188787950420
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,22 +168,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8554425843563628147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eb6fd2a6e39a4c45a212c8c9bfa6192, type: 3}
+  m_Script: {fileID: 11500000, guid: b49e9f205e6a7fe46a0c3e7e24dfae4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  experienceGranted: 100
---- !u!114 &8119911917525897727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8554425843563628147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b15ef3c15deb7d64e94bf0333a2f4380, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frequency: 3
-  magnitude: 0.1
-  direction: {x: 0, y: 1, z: 0}
+  lifespan: 0.5
+  bobbingAnimation:
+    frequency: 2
+    direction: {x: 0, y: 0.3}
+  experience: 60
+  health: 0
