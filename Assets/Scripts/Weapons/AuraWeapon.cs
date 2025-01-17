@@ -13,9 +13,11 @@ public class AuraWeapon : Weapon
         if(currentStats.auraPrefab)
         {
             if(currentAura) Destroy(currentAura);
+            
             currentAura = Instantiate(currentStats.auraPrefab, transform);
             currentAura.weapon = this;
             currentAura.owner = owner;
+            currentAura.transform.localScale = new Vector3(currentStats.area, currentStats.area, currentStats.area);
         }
     }
 
@@ -28,6 +30,7 @@ public class AuraWeapon : Weapon
     {
         if(!base.DoLevelUp()) return false;
 
+        OnEquip();
         //If there is an aura attached to this weapon, update it
         if(currentAura)
         {

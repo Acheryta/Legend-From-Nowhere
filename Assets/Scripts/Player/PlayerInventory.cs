@@ -343,7 +343,8 @@ public class PlayerInventory : MonoBehaviour
                         {
                             if(chosenWeaponUpgrade.maxLevel <= w.currentLevel)
                             {
-                                isLevelUp = false;
+                                DisableUpgradeUI(upgradeOption);
+                                isLevelUp = true;
                                 break;
                             }
                             // Set the Event Listener, item and level description to be that of the next level
@@ -388,7 +389,8 @@ public class PlayerInventory : MonoBehaviour
                         {
                             if(chosenPassiveUpgrade.maxLevel <= p.currentLevel)
                             {
-                                isLevelUp = false;
+                                DisableUpgradeUI(upgradeOption);
+                                isLevelUp = true;
                                 break;
                             }
                             // Set the Event Listener, item and level description to be that of the next level

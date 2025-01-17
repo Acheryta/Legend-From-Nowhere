@@ -20,6 +20,7 @@ MonoBehaviour:
     name: Crossbow
     description: Fires a bunch of arrow in the faced direction.
     projectilePrefab: {fileID: -8449677120667760314, guid: 85cc19b5d9b627148bc1c06e486c56df, type: 3}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -27,7 +28,7 @@ MonoBehaviour:
       y: 0
       width: 0
       height: 0
-    lifespan: 3.5
+    lifespan: 2
     damage: 13
     damageVariance: 5
     area: 1
@@ -42,6 +43,7 @@ MonoBehaviour:
   - name: Level 2
     description: Reduce cooldown 10%
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -63,6 +65,7 @@ MonoBehaviour:
   - name: Level 3
     description: Base damage up by 5
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -84,6 +87,7 @@ MonoBehaviour:
   - name: Level 4
     description: Make arrow piecing more 1
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -105,6 +109,7 @@ MonoBehaviour:
   - name: Level 5
     description: Increase number of arrow can be shoot
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -127,6 +132,7 @@ MonoBehaviour:
   - name: Cooldown upgrade
     description: Reduce cooldown 10%
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -148,6 +154,7 @@ MonoBehaviour:
   - name: Damage upgrade
     description: Base damage up by 5
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -169,6 +176,7 @@ MonoBehaviour:
   - name: Piercing upgrade
     description: Make arrow piecing more 1
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -190,6 +198,7 @@ MonoBehaviour:
   - name: Amount upgrade
     description: Increase number of arrow can be shoot
     projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2

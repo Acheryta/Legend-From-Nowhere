@@ -14,50 +14,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 1603012552, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}
   maxLevel: 5
+  evolutionData: []
   baseStats:
     name: Boots
-    description: Make you move faster 10%.
+    description: Make your move speed up by 1.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.1
+      moveSpeed: 1
       might: 0
       speed: 0
       magnet: 0
   growth:
   - name: Level 2
-    description: Make you move faster 10%.
+    description: Make your move speed up by 1.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.1
+      moveSpeed: 1
       might: 0
       speed: 0
       magnet: 0
   - name: Level 3
-    description: Make you move faster 10%.
+    description: Make your move speed up by 1.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.1
+      moveSpeed: 1
       might: 0
       speed: 0
       magnet: 0
   - name: Level 4
-    description: Make you move faster 10%.
+    description: Make your move speed up by 1.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.1
+      moveSpeed: 1
       might: 0
       speed: 0
       magnet: 0
   - name: Level 5
-    description: Make you move faster 10%.
+    description: Make your move speed up by 1.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 0.1
+      moveSpeed: 1
       might: 0
       speed: 0
       magnet: 0
