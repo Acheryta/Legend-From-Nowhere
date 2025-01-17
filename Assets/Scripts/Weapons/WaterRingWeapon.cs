@@ -12,7 +12,7 @@ public class WaterRingWeapon : ProjectileWeapon
         if(!currentStats.hitEffect)
         {
             Debug.LogWarning(string.Format("Hit effect prefab not set for {}", name));
-            currentCooldown = data.baseStats.cooldown;
+            ActivateCooldown(true);
             return false;
         }
 
@@ -23,7 +23,7 @@ public class WaterRingWeapon : ProjectileWeapon
         if(currentCooldown <= 0)
         {
             allSelectedEnemies = new List<EnemyStats>(FindObjectsOfType<EnemyStats>());
-            currentCooldown += currentStats.cooldown;
+            ActivateCooldown(true);
             currentAttackCount = attackCount;
         }
 
@@ -31,7 +31,7 @@ public class WaterRingWeapon : ProjectileWeapon
         EnemyStats target = PickEnemy();
         if(target)
         {
-            DamageArea(target.transform.position, currentStats.area, GetDamage());
+            DamageArea(target.transform.position, GetArea(), GetDamage());
             Instantiate(currentStats.hitEffect, target.transform.position, Quaternion.identity);
         }
 

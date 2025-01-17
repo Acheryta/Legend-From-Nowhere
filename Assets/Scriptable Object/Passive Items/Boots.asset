@@ -17,48 +17,98 @@ MonoBehaviour:
   evolutionData: []
   baseStats:
     name: Boots
-    description: Make your move speed up by 1.
+    description: Make your move faster 10%.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 1
+      armor: 0
+      moveSpeed: 0.1
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   growth:
   - name: Level 2
-    description: Make your move speed up by 1.
+    description: Make your move faster 10%.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 1
+      armor: 0
+      moveSpeed: 0.1
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 3
-    description: Make your move speed up by 1.
+    description: Make your move faster 10%.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 1
+      armor: 0
+      moveSpeed: 0.1
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 4
-    description: Make your move speed up by 1.
+    description: Make your move faster 10%.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 1
+      armor: 0
+      moveSpeed: 0.1
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 5
-    description: Make your move speed up by 1.
+    description: Make your move faster 10%.
     boosts:
       maxHealth: 0
       recovery: 0
-      moveSpeed: 1
+      armor: 0
+      moveSpeed: 0.1
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0

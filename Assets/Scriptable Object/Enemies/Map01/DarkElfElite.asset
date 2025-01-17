@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: DarkElfElite
   m_EditorClassIdentifier: 
   moveSpeed: 0
-  maxHealth: 0
+  maxHealth: 800
   damage: 0
