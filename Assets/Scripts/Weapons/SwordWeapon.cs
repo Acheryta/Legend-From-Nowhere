@@ -13,7 +13,7 @@ public class SwordWeapon : ProjectileWeapon
         if(!currentStats.projectilePrefab)
         {
             Debug.LogWarning(string.Format("Projectile prefab not set for {}", name));
-            currentCooldown = data.baseStats.cooldown;
+            ActivateCooldown(true);
             return false;
         }
 
@@ -63,7 +63,7 @@ public class SwordWeapon : ProjectileWeapon
 
         // Assign the stats
         prefab.weapon = this;
-        currentCooldown = data.baseStats.cooldown;
+        ActivateCooldown(true);
         attackCount--;
 
         //Determine where the next projectile spawn

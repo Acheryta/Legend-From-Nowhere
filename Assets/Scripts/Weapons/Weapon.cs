@@ -61,20 +61,7 @@ public abstract class Weapon : Item
         this.data = data;
         currentStats = data.baseStats;
         movement = GetComponentInParent<PlayerMovement>();
-        currentCooldown = currentStats.cooldown;
-    }
-
-    protected virtual void Awake()
-    {
-        if (data) currentStats = data.baseStats;
-    }
-
-    protected virtual void Start()
-    {
-        if(data)
-        {
-            Initialise(data);
-        }
+        ActivateCooldown();
     }
 
     protected virtual void Update()
@@ -82,7 +69,7 @@ public abstract class Weapon : Item
         currentCooldown -= Time.deltaTime;
         if(currentCooldown <= 0f) // Do attack if 0
         {
-            Attack(currentStats.number);
+            Attack(currentStats.number + owner.Stats.amount);
         }
     }
 
@@ -112,7 +99,7 @@ public abstract class Weapon : Item
     {
         if(CanAttack())
         {
-            currentCooldown += currentStats.cooldown;
+            ActivateCooldown();
             return true;
         }
         return false;
@@ -122,9 +109,30 @@ public abstract class Weapon : Item
     // Factoring in the weapon's stats as well as the character's Might
     public virtual float GetDamage()
     {
-        return currentStats.GetDamage() * owner.CurrentMight;
+        return currentStats.GetDamage() * owner.Stats.might;
+    }
+
+    // Get the area, including from the player stats
+    public virtual float GetArea()
+    {
+        return currentStats.area + owner.Stats.area;
     }
 
     // For retrieving the weapon's stats
     public virtual Stats GetStats() {return currentStats;}
+
+    //Refresh the cooldown of the weapon
+    // refresh only when the currentCooldown <0
+    public virtual bool ActivateCooldown(bool strict = false)
+    {
+        //When strict is enabled and the cooldown is not yet finished, dont refresh
+        if(strict && currentCooldown > 0) return false;
+
+        //Caculate cooldown going to be
+        float actualCooldown = currentStats.cooldown * Owner.Stats.cooldown;
+        
+        //Limit the maximum cooldown to actual cooldown so the cooldown can't go above the cooldown stat
+        currentCooldown = Mathf.Min(actualCooldown, currentCooldown + actualCooldown);
+        return true;
+    }
 }

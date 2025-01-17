@@ -23,13 +23,13 @@ public class Aura : WeaponEffect
                 {
                     //If target is marked for removeal. remove it
                     affectedTargets.Remove(pair.Key);
-                    targetToUnaffect.Remove(pair.Key);
+                    targetToUnaffect.Remove(pair.Key); 
                 }
                 else
                 {
                     //Reset the cooldown and deal damage
                     Weapon.Stats stats = weapon.GetStats();
-                    affectedTargets[pair.Key] = stats.cooldown;
+                    affectedTargets[pair.Key] = stats.cooldown * Owner.Stats.cooldown;
                     pair.Key.TakeDamage(GetDamge(), transform.position, stats.knockback);
 
                     //Play the hit effect

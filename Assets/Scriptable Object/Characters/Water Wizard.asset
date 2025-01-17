@@ -17,9 +17,19 @@ MonoBehaviour:
   name: Water Wizard
   startingWeapon: {fileID: 11400000, guid: 487b4c8409d1b8e45b247dd10e3c1cc3, type: 2}
   stats:
-    maxHealth: 900
+    maxHealth: 90
     recovery: 0
-    moveSpeed: 5
+    armor: 0
+    moveSpeed: 1.5
     might: 1
+    area: 1
     speed: 1
-    magnet: 5
+    duration: 1
+    amount: 0
+    cooldown: 1
+    luck: 1
+    growth: 1
+    greed: 1
+    curse: 1
+    magnet: 1
+    revival: 0
