@@ -1,14 +1,13 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
 {
-    //References
-    Animator am;
-    PlayerMovement pm;
-    SpriteRenderer sr;
-
+    // References
+    private Animator am;
+    private PlayerMovement pm;
+    private SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
@@ -16,31 +15,34 @@ public class PlayerAnimator : MonoBehaviour
         am = GetComponent<Animator>();
         pm = GetComponent<PlayerMovement>();
         sr = GetComponent<SpriteRenderer>();
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(pm.moveDir.x != 0 || pm.moveDir.y != 0)
-        {
-            am.SetBool("Move", true);
-
-            SpriteDirectionChecker();
-        }
-        else
-        {
-            am.SetBool("Move", false);
-        }
+        UpdateAnimatorParameters();
+        UpdateSpriteDirection();
     }
 
-    void SpriteDirectionChecker()
+    void UpdateAnimatorParameters()
     {
-        if(pm.lastHorizontalVector < 0)
+        // Cập nhật tham số "Move" dựa trên tốc độ di chuyển
+        bool isMoving = pm.moveDir.magnitude > 0.01f; // Kiểm tra nhân vật đang di chuyển
+        am.SetBool("Move", isMoving);
+
+        // Cập nhật hướng di chuyển
+        am.SetFloat("Horizontal", pm.moveDir.x);
+        am.SetFloat("Vertical", pm.moveDir.y);
+    }
+
+    void UpdateSpriteDirection()
+    {
+        // Lật hướng sprite theo hướng di chuyển
+        if (pm.lastHorizontalVector < 0)
         {
             sr.flipX = true;
         }
-        else
+        else if (pm.lastHorizontalVector > 0)
         {
             sr.flipX = false;
         }
@@ -48,7 +50,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public void SetAnimatorController(RuntimeAnimatorController c)
     {
-        if(!am) am = GetComponent<Animator>();
+        if (!am) am = GetComponent<Animator>();
         am.runtimeAnimatorController = c;
     }
 }
