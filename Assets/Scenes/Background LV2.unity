@@ -426,7 +426,7 @@ MonoBehaviour:
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 10
+  maxEnemiesAllowed: 100
   maxEnemiesReached: 0
   waveInterval: 30
   relativeSpawnPoints:
@@ -923,7 +923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6824767673229835267, guid: 9d67c604c90254d44af825a6944cfc68, type: 3}
       propertyPath: m_Name
-      value: Terrain Chunk 1
+      value: Terrain Chunk 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

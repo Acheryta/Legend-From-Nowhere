@@ -279,64 +279,128 @@ MonoBehaviour:
   waves:
   - waveName: Wave 1
     enemyGroups:
-    - enemyName: BloodWorm 1
-      enemyCount: 20
+    - enemyName: XacSong
+      enemyCount: 15
       spawnCount: 0
-      enemyPrefab: {fileID: 2174086349059368296, guid: 1eb59b1b113deb34f8456d38b736f6a6, type: 3}
+      enemyPrefab: {fileID: 8011035144141252345, guid: 69d528b10cad60a42886b713409b7a99, type: 3}
+    - enemyName: XacSong
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 2297684216304875553, guid: 20502799a5565b749a7853fc4fc8a331, type: 3}
+    - enemyName: XacSong
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 8401437656480945164, guid: cb30d59db8715ae42a9642238831559c, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
-    - enemyName: BloodWorm 2
-      enemyCount: 10
+    - enemyName: TienLinh
+      enemyCount: 20
       spawnCount: 0
-      enemyPrefab: {fileID: 8043894699299395522, guid: c75ef71082100b24c9a859ff47d266e0, type: 3}
-    - enemyName: BloodWorm 1
-      enemyCount: 5
+      enemyPrefab: {fileID: 8478810476339519786, guid: a3f1b460f1d4316429751a45af77dcd5, type: 3}
+    - enemyName: TienLinh
+      enemyCount: 20
       spawnCount: 0
-      enemyPrefab: {fileID: 2174086349059368296, guid: 1eb59b1b113deb34f8456d38b736f6a6, type: 3}
+      enemyPrefab: {fileID: 8925850646968849453, guid: 6206b15f6ed682d479de7935b8dac2e9, type: 3}
+    - enemyName: TienLinh
+      enemyCount: 20
+      spawnCount: 0
+      enemyPrefab: {fileID: 539539124136199015, guid: 0a0ac0df10813cf41bee901a9629320f, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
-    - enemyName: BloodWormElite
-      enemyCount: 1
+    - enemyName: Wraith
+      enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 4655728671746808957, guid: a3ec23e263ca0544daa7d2ad6c7667d0, type: 3}
-    - enemyName: BloodWorm02
-      enemyCount: 5
+      enemyPrefab: {fileID: 1026187058859089522, guid: 201462c4f234eea4aa7d6a09257d5c9e, type: 3}
+    - enemyName: Wraith
+      enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 8043894699299395522, guid: c75ef71082100b24c9a859ff47d266e0, type: 3}
+      enemyPrefab: {fileID: 5644930582603498298, guid: d2e3bdf3efaa3e548bb6e170426862d4, type: 3}
+    - enemyName: Wraith
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 8218493543104548859, guid: fbab9508b42241d4c8b86fc1ceff8f2e, type: 3}
+    - enemyName: CuNhan
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 3920595023373458656, guid: 6146788bb905e894a9e9f1f6e1d5729e, type: 3}
+    - enemyName: CuNhan
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 3828414314996242243, guid: c11782797dcb9c940a1aa466268201ce, type: 3}
+    - enemyName: CuNhan
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 246071514604852261, guid: adcdac6e4d35bd745a5e059f516117e9, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
-    - enemyName: AngrySpirit01
+    - enemyName: AcQuy
       enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 2250832179454290389, guid: 614b5a6d64b2a7b42874c519077ef669, type: 3}
+      enemyPrefab: {fileID: 428380700664106150, guid: 3b08a27771adc414a8887239625e8664, type: 3}
+    - enemyName: AcQuy
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 8950041849840631274, guid: dad153b06a8da4d4bb4a35d36912d8f7, type: 3}
+    - enemyName: AcQuy
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 445985071034630789, guid: 49a276394a6cbdb4b913ad373271d802, type: 3}
+    - enemyName: RongDa
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 6672306625012360317, guid: 5be564ad00f6f9e4cab20ec8e08d6b98, type: 3}
+    - enemyName: RongDa
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 6341529890805345046, guid: f71ae1e895269ad4cb88efaf43236a33, type: 3}
+    - enemyName: RongDa
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 5439248484638955162, guid: febc29f73745da942a4a7ad844760f0b, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
-    - enemyName: AngrySpirit02
+    - enemyName: RongCoDai
       enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 2822323747597158853, guid: 590142fc705245145b97125f56d4846d, type: 3}
-    - enemyName: AngrySpirit01
-      enemyCount: 5
+      enemyPrefab: {fileID: 2531597917104646096, guid: 46917d0c90b97a84e81f05900aee41c3, type: 3}
+    - enemyName: RongCoDai
+      enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 2250832179454290389, guid: 614b5a6d64b2a7b42874c519077ef669, type: 3}
+      enemyPrefab: {fileID: 10142588754251169, guid: 4dbc2865e6c4423499b24e2ba9edc983, type: 3}
+    - enemyName: RongCoDai
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 8408824834899989369, guid: 93b8fdc1433838d4ea762b0d44713bed, type: 3}
+    - enemyName: NguoiRong
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 6145380841277044345, guid: 6ab927249e6cf4e4a9c925df37fd6127, type: 3}
+    - enemyName: NguoiRong
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 5456239071768287532, guid: adb80e7c88293d845b2b05b89bc067b9, type: 3}
+    - enemyName: DaiBang
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 328327967544524219, guid: aa503275c68d41b4a9c413ed73bc9031, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   currentWaveCount: 0
   enemiesAlive: 0
-  maxEnemiesAllowed: 10
+  maxEnemiesAllowed: 100
   maxEnemiesReached: 0
   waveInterval: 30
   relativeSpawnPoints:
