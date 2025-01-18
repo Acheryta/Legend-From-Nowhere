@@ -7,6 +7,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour
 {
     public EnemyScriptableObject enemyData;
+    public bool isBoss = false;
     
     //Current stats
     [HideInInspector]
@@ -18,6 +19,7 @@ public class EnemyStats : MonoBehaviour
 
     public float despawnDistance = 20f;
     Transform player;
+    PlayerStats Player;
 
     [Header("Damage Feedback")]
     public Color damageColor = new Color(1,0,0,1);
@@ -33,6 +35,7 @@ public class EnemyStats : MonoBehaviour
         currentMoveSpeed = enemyData.MoveSpeed;
         currentDamage = enemyData.Damage;
         currentHealth = enemyData.MaxHealth;
+        Player = GetComponent<PlayerStats>();
     }
 
     void Start()
@@ -92,6 +95,8 @@ public class EnemyStats : MonoBehaviour
         EnemySpawner es = FindObjectOfType<EnemySpawner>();
         es.OnEnemyKilled();
         StartCoroutine(KillFade());
+        
+        if(isBoss == true) Player.Kill();
     }
 
     IEnumerator KillFade()

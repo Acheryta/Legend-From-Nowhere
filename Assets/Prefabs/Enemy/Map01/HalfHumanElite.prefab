@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 655871057990468986}
   - component: {fileID: -2690194954126251752}
   - component: {fileID: -2920242427090823024}
+  - component: {fileID: -6283604231513482905}
   m_Layer: 0
   m_Name: HalfHumanElite
   m_TagString: Enemy
@@ -162,6 +163,10 @@ MonoBehaviour:
   currentHealth: 0
   currentDamage: 0
   despawnDistance: 100
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashDuration: 0.2
+  deathFadeTime: 0.6
+  isDead: 0
 --- !u!114 &-2920242427090823024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,3 +180,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drops: []
+--- !u!114 &-6283604231513482905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5879704078830262662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e0ab14cea7f8645ab379f9901bdac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: 
+    itemPrefab: {fileID: 5842879342559677952, guid: 72b4ae06c8136c647afb205ee872be38, type: 3}
+    dropRate: 100

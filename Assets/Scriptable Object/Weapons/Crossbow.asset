@@ -38,7 +38,7 @@ MonoBehaviour:
     projectileInteval: 0.1
     knockback: 0.5
     number: 10
-    piercing: 1
+    piercing: 5
     maxInstances: 100
   linearGrowth:
   - name: Level 2

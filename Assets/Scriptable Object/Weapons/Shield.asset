@@ -21,7 +21,7 @@ MonoBehaviour:
     description: Bash the shied to dealt damage nearby enemy.
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 4781333853263384733, guid: a85e2912bc5b311468e0079a857cda88, type: 3}
-    hitEffect: {fileID: 0}
+    hitEffect: {fileID: 5685444024527376209, guid: 417cdfd7184373b46a27196b1f2b39ae, type: 3}
     procEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
