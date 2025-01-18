@@ -228,6 +228,8 @@ public class PlayerInventory : MonoBehaviour
         // Assign the passive to the slot
         passiveSlots[slotNum].Assign(p);
 
+        player.RecalculateStats();
+
         // Close the level up UI if it is on
         if(GameManager.instance != null && GameManager.instance.choosingUpgrade)
         {
@@ -269,7 +271,10 @@ public class PlayerInventory : MonoBehaviour
         }
 
         //If it is a passive, recaculate player stats
-        if(item is Passive) player.RecalculateStats();
+        if(item is Passive)
+        {
+            player.RecalculateStats();
+        }
         return true;
     }
 
