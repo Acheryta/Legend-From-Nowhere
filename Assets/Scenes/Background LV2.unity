@@ -306,15 +306,15 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: DoiHutMau
-      enemyCount: 20
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 1335108900691657490, guid: 55d63d8743061a549a484fd7a143bb7e, type: 3}
     - enemyName: DoiHutMau
-      enemyCount: 20
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 271105605003023956, guid: ddbcefdc76202b74a9e38d3c4dd3a6ea, type: 3}
     - enemyName: DoiHutMau
-      enemyCount: 20
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 4367980595664935749, guid: 878294fea968e844786b16ad1c4c1714, type: 3}
     waveQuota: 0
@@ -323,23 +323,23 @@ MonoBehaviour:
   - waveName: Wave 2
     enemyGroups:
     - enemyName: Gau
-      enemyCount: 10
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 1383091739381131741, guid: 9ff3a26629b89d147bc76c5ca2876fe3, type: 3}
     - enemyName: Gau
-      enemyCount: 10
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 9216304207254837342, guid: f94d50e93ac6875448f485eccf7b3dd0, type: 3}
     - enemyName: KhungLong
-      enemyCount: 10
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 5715663859040686257, guid: 12f4998b336fc2a4ca9558909e45a9fa, type: 3}
     - enemyName: KhungLong
-      enemyCount: 10
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 8572968468200212708, guid: 16a0e3cacf70b1e478b9c652edebb10d, type: 3}
     - enemyName: KhungLong
-      enemyCount: 10
+      enemyCount: 7
       spawnCount: 0
       enemyPrefab: {fileID: 1096466537579346110, guid: a32eec3a9402d0147b6165df6c05c7ce, type: 3}
     waveQuota: 0
@@ -348,15 +348,15 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: ThanLan
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 4373078270360175054, guid: d3cb573f58c9f49448d7e185c3d14ea1, type: 3}
     - enemyName: ThanLan
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 4066972832839830908, guid: 2ec695ca6722cf74a8412e7103f77161, type: 3}
     - enemyName: ThanLan
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 1148428669698282440, guid: f80cc6844ed196a498c4cbcb3b46117c, type: 3}
     - enemyName: ThanRung
@@ -377,19 +377,19 @@ MonoBehaviour:
   - waveName: Wave 4
     enemyGroups:
     - enemyName: BoXuong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8204779630521336299, guid: b9e133e46ed92344fa0bed58b79feb62, type: 3}
     - enemyName: BoXuong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 6042205227384461249, guid: a4eb74f7df884aa4494ab91dc6fbb27f, type: 3}
     - enemyName: BoXuong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 1144053293627795159, guid: d862b3a8db971c243a10ec6ca4d81bef, type: 3}
     - enemyName: BoXuong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 4043029256927967774, guid: 8f51c6a6f8c088c4491173c49be7a8a5, type: 3}
     waveQuota: 0
@@ -398,27 +398,27 @@ MonoBehaviour:
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Cycloc
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 6274221844950877748, guid: b4620b41f2a37334588f612c155eb8e5, type: 3}
     - enemyName: Cycloc
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 6591958307232099679, guid: 482dfe84705e636498bf00c141b47b65, type: 3}
     - enemyName: Cycloc
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 968929884449010836, guid: 3dbf0097cc97ca34ba4e14bb0a6f4223, type: 3}
     - enemyName: Vampire
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 1640084301575579833, guid: 502a4492626884546b174a0dbf362613, type: 3}
     - enemyName: Vampire
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 4010347373532388593, guid: 65c122de26e97234e87cb5095940fe70, type: 3}
     - enemyName: Vampire
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8935874906123967371, guid: 7f1d2858eae99a74085e1fd1d9bf35e1, type: 3}
     waveQuota: 0

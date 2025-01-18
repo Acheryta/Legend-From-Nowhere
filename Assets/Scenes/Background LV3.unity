@@ -280,15 +280,15 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: XacSong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8011035144141252345, guid: 69d528b10cad60a42886b713409b7a99, type: 3}
     - enemyName: XacSong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 2297684216304875553, guid: 20502799a5565b749a7853fc4fc8a331, type: 3}
     - enemyName: XacSong
-      enemyCount: 15
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8401437656480945164, guid: cb30d59db8715ae42a9642238831559c, type: 3}
     waveQuota: 0
@@ -297,15 +297,15 @@ MonoBehaviour:
   - waveName: Wave 2
     enemyGroups:
     - enemyName: TienLinh
-      enemyCount: 20
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8478810476339519786, guid: a3f1b460f1d4316429751a45af77dcd5, type: 3}
     - enemyName: TienLinh
-      enemyCount: 20
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8925850646968849453, guid: 6206b15f6ed682d479de7935b8dac2e9, type: 3}
     - enemyName: TienLinh
-      enemyCount: 20
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 539539124136199015, guid: 0a0ac0df10813cf41bee901a9629320f, type: 3}
     waveQuota: 0
@@ -314,27 +314,27 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Wraith
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 1026187058859089522, guid: 201462c4f234eea4aa7d6a09257d5c9e, type: 3}
     - enemyName: Wraith
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 5644930582603498298, guid: d2e3bdf3efaa3e548bb6e170426862d4, type: 3}
     - enemyName: Wraith
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8218493543104548859, guid: fbab9508b42241d4c8b86fc1ceff8f2e, type: 3}
     - enemyName: CuNhan
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 3920595023373458656, guid: 6146788bb905e894a9e9f1f6e1d5729e, type: 3}
     - enemyName: CuNhan
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 3828414314996242243, guid: c11782797dcb9c940a1aa466268201ce, type: 3}
     - enemyName: CuNhan
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 246071514604852261, guid: adcdac6e4d35bd745a5e059f516117e9, type: 3}
     waveQuota: 0
@@ -343,15 +343,15 @@ MonoBehaviour:
   - waveName: Wave 4
     enemyGroups:
     - enemyName: AcQuy
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 428380700664106150, guid: 3b08a27771adc414a8887239625e8664, type: 3}
     - enemyName: AcQuy
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 8950041849840631274, guid: dad153b06a8da4d4bb4a35d36912d8f7, type: 3}
     - enemyName: AcQuy
-      enemyCount: 10
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 445985071034630789, guid: 49a276394a6cbdb4b913ad373271d802, type: 3}
     - enemyName: RongDa

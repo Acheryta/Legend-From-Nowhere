@@ -811,27 +811,27 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Ghost
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 3065453149390260630, guid: b8c9d89697633ca4680b0ebdfd4f1fe1, type: 3}
     - enemyName: Ghost
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 2254792024353083222, guid: 1fb2701977762dd40b888c5a69cf4b65, type: 3}
     - enemyName: Ghost
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 7178395451577509525, guid: 1be655146bf55444faba2ee8c16e5725, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 1536789341325488655, guid: e9656269c75776347900a753b4411eb6, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 2466579623869710360, guid: 0ba9b9dcfbea27946867f65deedd8b2b, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 5
+      enemyCount: 8
       spawnCount: 0
       enemyPrefab: {fileID: 5879704078830262662, guid: 262ae16e3884565449f0cdef77c24eb8, type: 3}
     waveQuota: 0
@@ -840,15 +840,15 @@ MonoBehaviour:
   - waveName: Wave 4
     enemyGroups:
     - enemyName: Orc
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 685284115406275286, guid: 1fc979b2ecffe6748aae3da4e7a3940d, type: 3}
     - enemyName: Orc
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 871873687789043894, guid: c1d9761c5d5fb2b4d8cdd8090ee954a6, type: 3}
     - enemyName: Orc
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 5468797240131339047, guid: 188257d5e5b2f1447a9dbbfc220f4ac4, type: 3}
     - enemyName: FrogMan
