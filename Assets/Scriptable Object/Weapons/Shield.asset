@@ -14,14 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 2139525799, guid: 15bcb65cb4277274ea51c5693b55b248, type: 3}
   maxLevel: 8
-  evolutionData: []
+  evolutionData:
+  - name: Firework
+    condition: 0
+    consumes: 2
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: daf8d452867b3784694bc67bb40fadfb, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: f52b4ebf08a9c8a4a9d337b9a4cf46f4, type: 2}
+      level: 1
   behaviour: AuraWeapon
   baseStats:
     name: Shield
     description: Bash the shied to dealt damage nearby enemy.
     projectilePrefab: {fileID: 0}
-    auraPrefab: {fileID: 4781333853263384733, guid: a85e2912bc5b311468e0079a857cda88, type: 3}
-    hitEffect: {fileID: 0}
+    auraPrefab: {fileID: 7552381777540126611, guid: c88cf6ff57b93ea4599785dc9b1bf72c, type: 3}
+    hitEffect: {fileID: 5685444024527376209, guid: 417cdfd7184373b46a27196b1f2b39ae, type: 3}
     procEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2

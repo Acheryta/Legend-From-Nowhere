@@ -19,7 +19,7 @@ MonoBehaviour:
   stats:
     maxHealth: 125
     recovery: 0.2
-    armor: 4
+    armor: 2
     moveSpeed: 1
     might: 1
     area: 0

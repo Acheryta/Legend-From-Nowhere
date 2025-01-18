@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Ghost01
   m_EditorClassIdentifier: 
   moveSpeed: 3.5
-  maxHealth: 60
+  maxHealth: 30
   damage: 3.5

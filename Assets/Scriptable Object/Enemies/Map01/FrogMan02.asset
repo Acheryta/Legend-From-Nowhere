@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FrogMan02
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  maxHealth: 800
+  maxHealth: 250
   damage: 5

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AngrySpirit01
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 30
+  maxHealth: 15
   damage: 3

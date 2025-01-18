@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
 {
     EnemyStats enemy;
     Transform player;
+    Animator animator;
 
     Vector2 knockbackVelocity;
     float knockbackDuration;
@@ -16,21 +17,40 @@ public class EnemyMovement : MonoBehaviour
     {
         enemy = GetComponent<EnemyStats>();
         player = FindObjectOfType<PlayerMovement>().transform;
+        if(enemy.isBoss)
+        {
+            animator = GetComponent<Animator>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        //If currently being knockback
-        if(knockbackDuration > 0)
+        if(!enemy.isDead)
         {
-            transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
-            knockbackDuration -= Time.deltaTime;
-        }
-        else
-        {
-            //Otherwise, move to the player
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime); //move to player
+            //If currently being knockback
+            if(knockbackDuration > 0)
+            {
+                transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
+                knockbackDuration -= Time.deltaTime;
+            }
+            else
+            {
+                //Otherwise, move to the player
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime); //move to player
+                if(enemy.isBoss)
+                {
+                    Vector2 direction = (player.transform.position - transform.position).normalized;
+                    if (direction.x > 0)
+                    {
+                        animator.SetBool("isMoveL", false);
+                    }
+                    else
+                    {
+                        animator.SetBool("isMoveL", true);
+                    }
+                }
+            }
         }
     }
 

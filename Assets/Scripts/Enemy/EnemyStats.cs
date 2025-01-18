@@ -27,7 +27,7 @@ public class EnemyStats : MonoBehaviour
     SpriteRenderer sr;
     EnemyMovement movement;
     public bool isDead = false;
-
+    public bool isBoss = false;
     void Awake()
     {
         currentMoveSpeed = enemyData.MoveSpeed;
@@ -92,6 +92,15 @@ public class EnemyStats : MonoBehaviour
         EnemySpawner es = FindObjectOfType<EnemySpawner>();
         es.OnEnemyKilled();
         StartCoroutine(KillFade());
+        if (isBoss && !GameManager.instance.isGameOver)
+        {
+            // Call Kill() from PlayerStats so that show the result
+            PlayerStats player = FindObjectOfType<PlayerStats>();
+            if (player != null)
+            {
+                player.Kill();
+            }
+        }
     }
 
     IEnumerator KillFade()

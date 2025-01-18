@@ -162,6 +162,10 @@ MonoBehaviour:
   currentHealth: 0
   currentDamage: 0
   despawnDistance: 100
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashDuration: 0.2
+  deathFadeTime: 0.6
+  isDead: 0
 --- !u!114 &6164560711192641065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,4 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e0ab14cea7f8645ab379f9901bdac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drops: []
+  drops:
+  - name: 
+    itemPrefab: {fileID: 753723426735707751, guid: fabfa5b780709e04fbe2ae64289fabc1, type: 3}
+    dropRate: 100

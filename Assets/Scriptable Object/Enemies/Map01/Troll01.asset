@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Troll01
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 1500
+  maxHealth: 300
   damage: 6

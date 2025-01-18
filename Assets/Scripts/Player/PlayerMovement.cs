@@ -7,8 +7,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public const float DEFAULT_MOVESPEED = 5f;
-    public PlayerInputAction playerControls;
-    private InputAction move;
+    // public PlayerInputAction playerControls;
+    // private InputAction move;
 
     //Movement
     [HideInInspector]

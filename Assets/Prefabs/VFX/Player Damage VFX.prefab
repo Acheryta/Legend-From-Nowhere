@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5685444024527376209}
   - component: {fileID: 8740224915566754514}
   - component: {fileID: -8384217112386799269}
+  - component: {fileID: 7857622182489455813}
   m_Layer: 0
   m_Name: Player Damage VFX
   m_TagString: Untagged
@@ -4902,9 +4903,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 61c1a99716aad5941871321a0f2fca17, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e6eb4b885d6c7df4bb7346564b0a500c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4988,3 +4989,15 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7857622182489455813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6188849467351987575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460343f2ec7108845aadb0eefbf8af95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Orc01
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 200
+  maxHealth: 100
   damage: 4.5

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: HalfHuman01
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 100
+  maxHealth: 50
   damage: 4

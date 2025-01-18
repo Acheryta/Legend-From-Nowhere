@@ -9,6 +9,9 @@ public class BossMovement : MonoBehaviour
     Transform player;
     Animator animator;
 
+    Vector2 knockbackVelocity;
+    float knockbackDuration;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +23,41 @@ public class BossMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 direction = (player.transform.position - transform.position).normalized;
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime); //move to player
-        if (direction.x > 0)
+
+        if(!enemy.isDead)
         {
-            animator.SetBool("isMoveL", false);
+            //If currently being knockback
+            if(knockbackDuration > 0)
+            {
+                transform.position += (Vector3)knockbackVelocity * Time.deltaTime;
+                knockbackDuration -= Time.deltaTime;
+            }
+            else
+            {
+                Vector2 direction = (player.transform.position - transform.position).normalized;
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime); //move to player
+                if (direction.x > 0)
+                {
+                    animator.SetBool("isMoveL", false);
+                }
+                else
+                {
+                    animator.SetBool("isMoveL", true);
+                }
+            }
         }
-        else
+        
+    }
+
+    public void Knockback(Vector2 velocity, float duration)
+    {
+        if(knockbackDuration > 0)
         {
-            animator.SetBool("isMoveL", true);
+            return;
         }
+
+        //Begin knockback
+        knockbackVelocity = velocity;
+        knockbackDuration = duration;
     }
 }

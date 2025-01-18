@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4333058947814012209}
   - component: {fileID: 5954617284670182851}
   - component: {fileID: -6062247193810631033}
+  - component: {fileID: -1958350484820650027}
   m_Layer: 0
   m_Name: Boss03
   m_TagString: Untagged
@@ -165,3 +166,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cac920a1b3a6afd4caa6e9e5f2984087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1958350484820650027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6358356082226496456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2187a1d020913634c99882bf63d15814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: 73a086d9e93d7d542a4c3842e69b4342, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
+  despawnDistance: 100
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  damageFlashDuration: 0.2
+  deathFadeTime: 0.6
+  isDead: 0
+  isBoss: 1
