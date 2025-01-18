@@ -280,15 +280,15 @@ MonoBehaviour:
   - waveName: Wave 1
     enemyGroups:
     - enemyName: XacSong
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8011035144141252345, guid: 69d528b10cad60a42886b713409b7a99, type: 3}
     - enemyName: XacSong
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 2297684216304875553, guid: 20502799a5565b749a7853fc4fc8a331, type: 3}
     - enemyName: XacSong
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8401437656480945164, guid: cb30d59db8715ae42a9642238831559c, type: 3}
     waveQuota: 0
@@ -314,15 +314,15 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Wraith
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 1026187058859089522, guid: 201462c4f234eea4aa7d6a09257d5c9e, type: 3}
     - enemyName: Wraith
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 5644930582603498298, guid: d2e3bdf3efaa3e548bb6e170426862d4, type: 3}
     - enemyName: Wraith
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8218493543104548859, guid: fbab9508b42241d4c8b86fc1ceff8f2e, type: 3}
     - enemyName: CuNhan
@@ -343,15 +343,15 @@ MonoBehaviour:
   - waveName: Wave 4
     enemyGroups:
     - enemyName: AcQuy
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 428380700664106150, guid: 3b08a27771adc414a8887239625e8664, type: 3}
     - enemyName: AcQuy
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 8950041849840631274, guid: dad153b06a8da4d4bb4a35d36912d8f7, type: 3}
     - enemyName: AcQuy
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 445985071034630789, guid: 49a276394a6cbdb4b913ad373271d802, type: 3}
     - enemyName: RongDa
@@ -384,15 +384,15 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 8408824834899989369, guid: 93b8fdc1433838d4ea762b0d44713bed, type: 3}
     - enemyName: NguoiRong
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 6145380841277044345, guid: 6ab927249e6cf4e4a9c925df37fd6127, type: 3}
     - enemyName: NguoiRong
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 5456239071768287532, guid: adb80e7c88293d845b2b05b89bc067b9, type: 3}
     - enemyName: DaiBang
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 328327967544524219, guid: aa503275c68d41b4a9c413ed73bc9031, type: 3}
     waveQuota: 0

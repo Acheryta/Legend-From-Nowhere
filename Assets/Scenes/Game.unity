@@ -811,27 +811,27 @@ MonoBehaviour:
   - waveName: Wave 3
     enemyGroups:
     - enemyName: Ghost
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 3065453149390260630, guid: b8c9d89697633ca4680b0ebdfd4f1fe1, type: 3}
     - enemyName: Ghost
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 2254792024353083222, guid: 1fb2701977762dd40b888c5a69cf4b65, type: 3}
     - enemyName: Ghost
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 7178395451577509525, guid: 1be655146bf55444faba2ee8c16e5725, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 1536789341325488655, guid: e9656269c75776347900a753b4411eb6, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 2466579623869710360, guid: 0ba9b9dcfbea27946867f65deedd8b2b, type: 3}
     - enemyName: HalfHuman
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 5879704078830262662, guid: 262ae16e3884565449f0cdef77c24eb8, type: 3}
     waveQuota: 0
@@ -852,15 +852,15 @@ MonoBehaviour:
       spawnCount: 0
       enemyPrefab: {fileID: 5468797240131339047, guid: 188257d5e5b2f1447a9dbbfc220f4ac4, type: 3}
     - enemyName: FrogMan
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 3576080096625296337, guid: 42f51872c198abf4fa7b2d86b8356354, type: 3}
     - enemyName: FrogMan
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 920721688156352888, guid: 98cd53ddb62e2a749a68127ee299c45a, type: 3}
     - enemyName: FrogMan
-      enemyCount: 8
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 252467035180893597, guid: db3c78460ba2f6a4e90060b57b61b53a, type: 3}
     waveQuota: 0
@@ -869,15 +869,15 @@ MonoBehaviour:
   - waveName: Wave 5
     enemyGroups:
     - enemyName: Troll
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 7744314685301296613, guid: bb67686ed1b6ef54fbcce794b7b4fa5e, type: 3}
     - enemyName: Troll
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 2948451641290837798, guid: 57a3d1cf07300564da2aecbad0a59328, type: 3}
     - enemyName: Troll
-      enemyCount: 10
+      enemyCount: 15
       spawnCount: 0
       enemyPrefab: {fileID: 4831302723023334756, guid: 85ccd3e5cedb13747bc3eab3436c696d, type: 3}
     - enemyName: DarkElf
