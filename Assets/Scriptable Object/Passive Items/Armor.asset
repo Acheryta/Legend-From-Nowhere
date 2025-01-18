@@ -17,48 +17,98 @@ MonoBehaviour:
   evolutionData: []
   baseStats:
     name: Armor
-    description: Boost your max health by 100
+    description: Boost armor by 5
     boosts:
-      maxHealth: 100
+      maxHealth: 0
       recovery: 0
+      armor: 5
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   growth:
   - name: Level 2
-    description: Boost your max health by 100
+    description: Boost armor by 5
     boosts:
-      maxHealth: 100
+      maxHealth: 0
       recovery: 0
+      armor: 5
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 3
-    description: Boost your max health by 100
+    description: Boost armor by 5
     boosts:
-      maxHealth: 100
+      maxHealth: 0
       recovery: 0
+      armor: 5
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 4
-    description: Boost your max health by 100
+    description: Boost armor by 5
     boosts:
-      maxHealth: 100
+      maxHealth: 0
       recovery: 0
+      armor: 5
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0
   - name: Level 5
-    description: Boost your max health by 100
+    description: Boost armor by 5
     boosts:
-      maxHealth: 100
+      maxHealth: 0
       recovery: 0
+      armor: 5
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
       magnet: 0
+      revival: 0

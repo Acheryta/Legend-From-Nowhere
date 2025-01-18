@@ -5,9 +5,8 @@ using UnityEngine;
 public abstract class Weapon : Item
 {
     [System.Serializable]
-    public struct Stats
+    public class Stats : LevelData
     {
-        public string name, description;
         [Header("Visuals")]
         public Projectile projectilePrefab;
         public Aura auraPrefab;
@@ -84,7 +83,7 @@ public abstract class Weapon : Item
         }
 
         // Otherwise add stats of the next level to our weapon
-        currentStats += data.GetLevelData(++currentLevel);
+        currentStats += (Stats)data.GetLevelData(++currentLevel);
         return true;
     }
 

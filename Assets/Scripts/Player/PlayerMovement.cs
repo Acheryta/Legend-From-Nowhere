@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     public const float DEFAULT_MOVESPEED = 5f;
+    public PlayerInputAction playerControls;
+    private InputAction move;
+
     //Movement
     [HideInInspector]
     public float lastHorizontalVector;
@@ -19,6 +22,12 @@ public class PlayerMovement : MonoBehaviour
     //References
     Rigidbody2D rb;
     PlayerStats player;
+
+    void Awake()
+    {
+        playerControls = new PlayerInputAction();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +36,16 @@ public class PlayerMovement : MonoBehaviour
         lastMovedVector = new Vector2(1,0f); //If not, the projectile won't move at the start of the game
     }
 
+    void OnEnable()
+    {
+        move = playerControls.Player.Move;
+        move.Enable();
+    }
+
+    void OnDisable()
+    {
+        move.Disable();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -44,10 +63,11 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        // float moveX = Input.GetAxisRaw("Horizontal");
+        // float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDir = new Vector2(moveX,moveY).normalized;
+        // moveDir = new Vector2(moveX,moveY).normalized;
+        moveDir = move.ReadValue<Vector2>();
 
         if(moveDir.x != 0)
         {
@@ -73,6 +93,6 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        rb.velocity = moveDir * DEFAULT_MOVESPEED * player.Stats.moveSpeed;
+        rb.velocity = new Vector2(moveDir.x * DEFAULT_MOVESPEED * player.Stats.moveSpeed, moveDir.y * DEFAULT_MOVESPEED * player.Stats.moveSpeed);
     }
 }

@@ -18,11 +18,11 @@ MonoBehaviour:
   startingWeapon: {fileID: 11400000, guid: 487b4c8409d1b8e45b247dd10e3c1cc3, type: 2}
   stats:
     maxHealth: 90
-    recovery: 0
-    armor: 0
-    moveSpeed: 1.5
+    recovery: 0.2
+    armor: 2
+    moveSpeed: 1
     might: 1
-    area: 1
+    area: 0
     speed: 1
     duration: 1
     amount: 0
