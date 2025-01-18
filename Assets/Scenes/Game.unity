@@ -776,58 +776,122 @@ MonoBehaviour:
   waves:
   - waveName: Wave 1
     enemyGroups:
-    - enemyName: BloodWorm 1
-      enemyCount: 20
+    - enemyName: BloodWorm
+      enemyCount: 10
       spawnCount: 0
       enemyPrefab: {fileID: 2174086349059368296, guid: 1eb59b1b113deb34f8456d38b736f6a6, type: 3}
+    - enemyName: BloodWorm
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 8043894699299395522, guid: c75ef71082100b24c9a859ff47d266e0, type: 3}
+    - enemyName: BloodWorm
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 4655728671746808957, guid: a3ec23e263ca0544daa7d2ad6c7667d0, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 2
     enemyGroups:
-    - enemyName: BloodWorm 2
-      enemyCount: 10
+    - enemyName: AngrySpirit
+      enemyCount: 15
       spawnCount: 0
-      enemyPrefab: {fileID: 8043894699299395522, guid: c75ef71082100b24c9a859ff47d266e0, type: 3}
-    - enemyName: BloodWorm 1
-      enemyCount: 5
+      enemyPrefab: {fileID: 2250832179454290389, guid: 614b5a6d64b2a7b42874c519077ef669, type: 3}
+    - enemyName: AngrySpirit
+      enemyCount: 15
       spawnCount: 0
-      enemyPrefab: {fileID: 2174086349059368296, guid: 1eb59b1b113deb34f8456d38b736f6a6, type: 3}
+      enemyPrefab: {fileID: 2822323747597158853, guid: 590142fc705245145b97125f56d4846d, type: 3}
+    - enemyName: AngrySpirit
+      enemyCount: 15
+      spawnCount: 0
+      enemyPrefab: {fileID: 7587561673573723899, guid: bf897b9c7e2d6db4091a8c99a2748acf, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 3
     enemyGroups:
-    - enemyName: BloodWormElite
-      enemyCount: 1
-      spawnCount: 0
-      enemyPrefab: {fileID: 4655728671746808957, guid: a3ec23e263ca0544daa7d2ad6c7667d0, type: 3}
-    - enemyName: BloodWorm02
+    - enemyName: Ghost
       enemyCount: 5
       spawnCount: 0
-      enemyPrefab: {fileID: 8043894699299395522, guid: c75ef71082100b24c9a859ff47d266e0, type: 3}
+      enemyPrefab: {fileID: 3065453149390260630, guid: b8c9d89697633ca4680b0ebdfd4f1fe1, type: 3}
+    - enemyName: Ghost
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 2254792024353083222, guid: 1fb2701977762dd40b888c5a69cf4b65, type: 3}
+    - enemyName: Ghost
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 7178395451577509525, guid: 1be655146bf55444faba2ee8c16e5725, type: 3}
+    - enemyName: HalfHuman
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 1536789341325488655, guid: e9656269c75776347900a753b4411eb6, type: 3}
+    - enemyName: HalfHuman
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 2466579623869710360, guid: 0ba9b9dcfbea27946867f65deedd8b2b, type: 3}
+    - enemyName: HalfHuman
+      enemyCount: 5
+      spawnCount: 0
+      enemyPrefab: {fileID: 5879704078830262662, guid: 262ae16e3884565449f0cdef77c24eb8, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 4
     enemyGroups:
-    - enemyName: AngrySpirit01
-      enemyCount: 10
+    - enemyName: Orc
+      enemyCount: 8
       spawnCount: 0
-      enemyPrefab: {fileID: 2250832179454290389, guid: 614b5a6d64b2a7b42874c519077ef669, type: 3}
+      enemyPrefab: {fileID: 685284115406275286, guid: 1fc979b2ecffe6748aae3da4e7a3940d, type: 3}
+    - enemyName: Orc
+      enemyCount: 8
+      spawnCount: 0
+      enemyPrefab: {fileID: 871873687789043894, guid: c1d9761c5d5fb2b4d8cdd8090ee954a6, type: 3}
+    - enemyName: Orc
+      enemyCount: 8
+      spawnCount: 0
+      enemyPrefab: {fileID: 5468797240131339047, guid: 188257d5e5b2f1447a9dbbfc220f4ac4, type: 3}
+    - enemyName: FrogMan
+      enemyCount: 8
+      spawnCount: 0
+      enemyPrefab: {fileID: 3576080096625296337, guid: 42f51872c198abf4fa7b2d86b8356354, type: 3}
+    - enemyName: FrogMan
+      enemyCount: 8
+      spawnCount: 0
+      enemyPrefab: {fileID: 920721688156352888, guid: 98cd53ddb62e2a749a68127ee299c45a, type: 3}
+    - enemyName: FrogMan
+      enemyCount: 8
+      spawnCount: 0
+      enemyPrefab: {fileID: 252467035180893597, guid: db3c78460ba2f6a4e90060b57b61b53a, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
   - waveName: Wave 5
     enemyGroups:
-    - enemyName: AngrySpirit02
+    - enemyName: Troll
       enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 2822323747597158853, guid: 590142fc705245145b97125f56d4846d, type: 3}
-    - enemyName: AngrySpirit01
-      enemyCount: 5
+      enemyPrefab: {fileID: 7744314685301296613, guid: bb67686ed1b6ef54fbcce794b7b4fa5e, type: 3}
+    - enemyName: Troll
+      enemyCount: 10
       spawnCount: 0
-      enemyPrefab: {fileID: 2250832179454290389, guid: 614b5a6d64b2a7b42874c519077ef669, type: 3}
+      enemyPrefab: {fileID: 2948451641290837798, guid: 57a3d1cf07300564da2aecbad0a59328, type: 3}
+    - enemyName: Troll
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 4831302723023334756, guid: 85ccd3e5cedb13747bc3eab3436c696d, type: 3}
+    - enemyName: DarkElf
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 497722908501960000, guid: 6c00b338ceeb1034b915154de83a2fca, type: 3}
+    - enemyName: DarkElf
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 104456805062781488, guid: d4aa81a20a8ec484890bbe53e18b54cd, type: 3}
+    - enemyName: DarkElf
+      enemyCount: 10
+      spawnCount: 0
+      enemyPrefab: {fileID: 8441491336781932914, guid: c8a277948cd5e38439429c66613d1560, type: 3}
     waveQuota: 0
     spawnInterval: 1
     spawnCount: 0
