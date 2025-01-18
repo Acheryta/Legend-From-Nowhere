@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,3388 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpellFXAnim2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8e17d24f84c324f85cf52230985068
+      internalID: -1552045418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f521cd6e863a1b64db51f0472567bdc7
+      internalID: -1657198968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d0ac1b7d33c104c85611ec1bdfdb52
+      internalID: 436408692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8226806727b5ba4f87f5b4c2dee89f2
+      internalID: -1226225395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02142a0b8a98cf34792870a03b4cbc5f
+      internalID: -820455232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5842ff9ae269b8d42b5a0ae97492f559
+      internalID: -968427366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92742d61cefaf3f4cbeef48e141a29bf
+      internalID: -1439948412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c256b0ce5df5b4f48822209d1d41ebb7
+      internalID: -1810600088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52db0e21d7f5f4544b93b7e884d44dff
+      internalID: 598153904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6539c063f2b3c284cba7a7accf2858a4
+      internalID: 94649073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e358146e2c62d54e82ada9f937bfd94
+      internalID: -515102868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498d36146fa3bdd449b2d7ea796a6ec1
+      internalID: -1584203951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa6e72b14c97ce41b1895159e14f2f0
+      internalID: 346623965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d71a1111182eb458147f79ffc61e81
+      internalID: 63682869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6141757cc0744744a860c2ca7d4e9da
+      internalID: -651868988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 589
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5916c0e5d1169cc4d9c5e389ee48110c
+      internalID: 1127452771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331708681efcd624ebe1ba5d24d352e5
+      internalID: -2010945918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf082eb934ed1864e931e971460afdb9
+      internalID: 1424244317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8bc0273ae419489cea7ff25c14527
+      internalID: -842344743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6699925918b217f4c87e1f65f32119e8
+      internalID: 1680216220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_20
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ceb8564f246aa49823f3f21bf08b04
+      internalID: 1523607867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8218bb2e80d4a946bf70767a8aad4b5
+      internalID: 429674280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59186f4b61184b438866f42c2b92ba7
+      internalID: -1586889159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_23
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 558
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef6a857b13e10547b3fcf96a7ce126a
+      internalID: 925253815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a51a51500cf4f42b44aacf9c0f8cf0
+      internalID: 1622710529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2680528a052e4294496b9a9f638120eb
+      internalID: -463566456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac27da33aa2b3a640a0e6087c1527a56
+      internalID: 1627975764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_27
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2b8754d1d9db44a2bfe33c9057f5f
+      internalID: 716481378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059321a3536de204bbc5981ca6d15bad
+      internalID: -276998280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf84c075bec3494db5404a9fb99a6f5
+      internalID: 494052628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_30
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 527
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bda0c0a088c934c9219e2368b68c40
+      internalID: -1416046699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac37914840a7f1547812fbf32c1ca6ef
+      internalID: 1536946487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad4fb088cabd6468eae875994cd622
+      internalID: -656019902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa96bc80598f6954f8d3c829209692b6
+      internalID: -1693495105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_34
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb1438f35ff432428b2fd299db476a8
+      internalID: -2080866904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_35
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584cc8c4d215dd74babb824433cf61f4
+      internalID: 882463320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f95da1963a009548b00f4651a0003b3
+      internalID: 1659547882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_37
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaeff1105d0ea441b961e41dfadba1e
+      internalID: 2019747507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_38
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 496
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7380cdc220fa5745b36fcbb4ec24b64
+      internalID: -701979835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3a1743263e7484da3239ad56f19858
+      internalID: 375199773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8637c6cf6c614804f8b0466bf65c19eb
+      internalID: 664766090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_41
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e191e2230a386349aef427bb7460066
+      internalID: 214348360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace42a898c654f9488d08bb30a7e8a43
+      internalID: -192728158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_43
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be0e4c58b9876d4fa49b1724682b545
+      internalID: 2047941560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_44
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 465
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7722d1bf4f1619448be7c7496f96763a
+      internalID: 961748153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85f570fd2210fa4aa42e28d6f0e68c3
+      internalID: 515675302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_46
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc33483e6a1d7dc4f9a76ac70fb0af7f
+      internalID: -1106742372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a99acec33b26f4da1a85dff2ff5c16
+      internalID: -868159465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4e19b0876a3db4abdb556aa4046784
+      internalID: 147548976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_49
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc6753f0de7ece49ae6be508460bdb3
+      internalID: -80384025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_50
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972065b5550be54b989f987242f9ccc
+      internalID: -942914648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_51
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4d35dd2fe05994fad2dac733406632
+      internalID: -1767115646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_52
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 434
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a31ae2bc510b4ebd995522ff5aa7a
+      internalID: 2022306777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487c11e55d7124c46bab75c726bea923
+      internalID: -423103235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_54
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d9a128d1910dc4aba3a037f95f5daa
+      internalID: 1114075751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_55
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacca416646c3744c814db3bcede3af8
+      internalID: -130973719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_56
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af811357178757a448924fd96f3be635
+      internalID: 195518449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5432f93278f822742bd293ec1f4c09e0
+      internalID: -2115631683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20870474786c3d448c866e8dc0b87c6
+      internalID: -46624789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_59
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf38ce55ee40154590ec91b3c6257d9
+      internalID: -2144961933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_60
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 403
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a2d863bf81e354fa795065615fe764
+      internalID: -743679243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32767c2945618f4a92a121e9124da00
+      internalID: -5863940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_62
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fbb853119cdd04db6f456945245f72
+      internalID: 1320987158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_63
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96821bf6a915f346a3b81a97d9424cc
+      internalID: 1261378499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_64
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad4e7ba262069419a7752603098134
+      internalID: 1039910881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_65
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc79ca901a4274a9fe4d4cbba148b5
+      internalID: 1392257705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6374b632715e70e479f1433d07c93e20
+      internalID: 276781034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee77242fb17d3a14b8cb9bae44d6b173
+      internalID: 810517374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_68
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 372
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50a1551a0a0d7845a0585a6f60de66d
+      internalID: -1644876896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88e6c789207c34f9574d3e445676e5
+      internalID: -1982317723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_70
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2718ca8be2a4647862c3864d5872fe
+      internalID: -1775358927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafa64d9f4bbd864587c97b5218fd46f
+      internalID: 411155703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_72
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc97d3a5bacddf4d80471bc5e496efc
+      internalID: -1314280548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac1963c480b42e42b3773a5d338bbeb
+      internalID: 984015390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6cc6527699647478e25112ccbc80e3
+      internalID: -896921847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_75
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89811985473d1c1488bcab93b0a50ae0
+      internalID: -1051387441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_76
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 341
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5087c63fd2455849aea7b4e8d77e363
+      internalID: -2034202204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cee79488fdb844984b05786160d323
+      internalID: -590419022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_78
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5906ef852e6e41914684771295833
+      internalID: -1987375504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_79
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff647d3ef833d4b8c5374addbf3b98
+      internalID: 1772664780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_80
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35fa0631df9c0643adaa1c2456257d9
+      internalID: 1483218267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_81
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1db54699590d6b4c9b1b883d89f43b8
+      internalID: -1811095807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_82
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ced886f0368984abdbe15a681c20e5
+      internalID: -2072792074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_83
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ead1eff7471764bbb482043b0c6aa8
+      internalID: -426297251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_84
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 310
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c293119a4490c74ea87bca1e2287df2
+      internalID: 546837704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afbd933e27c3644fb4430dfd3387f99
+      internalID: -806078944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_86
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fac82c509df96e408d8fbc947fac181
+      internalID: 1414782017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_87
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f538980c98ab7474bb10b96a77b49896
+      internalID: 823522914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_88
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd5e6fdb8a91c0409a5d2edd8f25b2c
+      internalID: 1154102764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_89
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097109f631464124b8d693477e32f949
+      internalID: 1342067867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_90
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7000b844e36979b41a80d33ee56658ac
+      internalID: 1762232286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_91
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a036e636eb9a1e459c503899073b10a
+      internalID: -1144250287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_92
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 279
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc02821b2b3e848a613f565b27b146
+      internalID: -690718611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cada49d1936d0394ea07c30fb0a54f4d
+      internalID: 2029141928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_94
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3b15d392f8da4f82519f40b814d03
+      internalID: -1268348061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_95
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c17b27e176be4d4587e29a3fb4bc6a2
+      internalID: -1949224419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_96
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ae3bda0d57922498f36e42197f0344
+      internalID: 2083878135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_97
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247448022cd9bad4eb4a6ee02f9a90dd
+      internalID: 2090486204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_98
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a940a530850684e97fd3b1ef576dfa
+      internalID: -1358644107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_99
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadfadc5b2b67994089d4593f0faec3a
+      internalID: -1693632630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_100
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 248
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46ae07c89f1a2f478ca56ea156b0130
+      internalID: 83688640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24f72557ec1ce45be27d67c1f09cb8
+      internalID: 831814076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_102
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280944eab4851354fb77eb8f0fc2db83
+      internalID: -1254554166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_103
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc9df953eb99604788d0ba59fa92e68
+      internalID: 1376961411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_104
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47891c612701d84ca07905e816f112b
+      internalID: -1497541399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_105
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2444e1ca0162aa44b85852d5ce1ea92f
+      internalID: -755920423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_106
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e706bb7c290c4eaafe1caa3a2b955
+      internalID: -1873162997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_107
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ed212ab757bb4db1b96c28af789aa
+      internalID: -1102231086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_108
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 217
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00f27e37fbb6bf47824126137f437f9
+      internalID: 1188425534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46b009ac4e5c6545a12a831b6497c6c
+      internalID: 1982243953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_110
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9357b4ce15d7bad48a6952d54bc0c9f2
+      internalID: 1311604776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_111
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57752c3c52d1aa94f804c7aa6202ea5b
+      internalID: 798161385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_112
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c0c9d807496cc43991f06961253c58
+      internalID: 1793958054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_113
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6252f16c21c04c966420430bfc951
+      internalID: -407419323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_114
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9b6af997766a4d8afce8b9ccb2204
+      internalID: 1176727744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_115
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa690400e25c6894994a71415053cc28
+      internalID: 1276965444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_116
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 186
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb3c8bc7b95b0c45bd02de4aa7b7415
+      internalID: 1955254156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2be855248d1344f9771b94d72153ba
+      internalID: -758568662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_118
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899274b8ed7a5b44fb6704cb020d8b9e
+      internalID: -375598083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_119
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae9a765fff80804e85d630e83d6f113
+      internalID: 331943829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_120
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e029068a583e9cb4a9a816eb0d202de5
+      internalID: 1428247929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_121
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0893130c3b03324cbac0b397b2766fc
+      internalID: -1310341541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_122
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9076841b9a12f3240a7d90a5d4e0b078
+      internalID: -1070352175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_123
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d57483ef42194eb956b008bfb9541
+      internalID: -1739174477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_124
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 155
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f401587ea1814b9dec2602d9472d1
+      internalID: 1123214315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978444c8517ee4c43ad748ac9cbff168
+      internalID: 2123472510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_126
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72572b6e2825bf4395f2f887704d9e5
+      internalID: 1623401167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_127
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e427dd19e1d49a94ab1a9d165dda642f
+      internalID: -583462369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_128
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fbd23171f20be46961d4acdec00ccc
+      internalID: -174603107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_129
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ef68f235d0faa459b5ec5becfc9fde
+      internalID: 2062293448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_130
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1544195b8cbcb8841aacd94854801591
+      internalID: 71297269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_131
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083034a6c235b04439ecae0521010db4
+      internalID: 1079525105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_132
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 124
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07c6500ab938084ca8414892f1d2f07
+      internalID: -1492568664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fe32091c82aea4cb4709a4be48e4bb
+      internalID: -1854900040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_134
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363ee45f35f3e3949be8c77b2647f6ed
+      internalID: 151316155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_135
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2460934954b6e48b928b0761a883df
+      internalID: -1998688969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_136
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f1fba4d08966e4d8ba64f2afdd57db
+      internalID: 981815063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_137
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330d8c72323347e4f89a5944fd6e3cd5
+      internalID: -1760328336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_138
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1494d63dd0a014fb31f3561cbed46e
+      internalID: -165424247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_139
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bff6d4cd94ac0459d5a2eb4903d1aa
+      internalID: -1823307572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_140
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 93
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aabb1c7a7a4d149be6f6888ed6ada3
+      internalID: 1664874277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f28c33017ddef4badb31be1d87cd58
+      internalID: -383779789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_142
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2db8db4ef8c5943ab2bc8970ee2efc
+      internalID: -122081284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_143
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ae4f06f6d525d47b583140554fdfaf
+      internalID: -1141902343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_144
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85914d5bf5153246bae47c7c100c147
+      internalID: -1866141259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_145
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593037d1a5a0bf8498e2ead7137d2a99
+      internalID: -1332062657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_146
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd7b0720daf09489e9fe79e9b4b2e5
+      internalID: -1918640067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_147
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f16285f4e9346d4b863c62383c63b3d
+      internalID: 1721782947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_148
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 62
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56328790d81530a468d99439a1d0bc10
+      internalID: -769172888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a8815294a6cdb4b9386bc6c8ac23a8
+      internalID: 1834345019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_150
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e8da77a6352894ca9f920fd71ce81e
+      internalID: 851981912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_151
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0a3d3ed93f2e84697ecee7ea837924
+      internalID: -767031091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_152
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de66c7222c1aa074f8121e163f787c70
+      internalID: 854479155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_153
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c4d24c425879d49a7a1e7c9453f1fb
+      internalID: 1753621159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_154
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3669a6f1ab1decb46ae2588f1ceaf953
+      internalID: -907823758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_155
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61368957866b07f49abbf04452fe0535
+      internalID: -678707250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_156
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 31
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722d906ef33f71f45bdefa490a40c7f6
+      internalID: 617534189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113f1b059133f764d932c4fb573ec1a8
+      internalID: -1090409952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_158
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fb4fa879cc07647a4cc8a7860c49f0
+      internalID: -1556424036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_159
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed11b59819fc64143b0870c993a8d267
+      internalID: -812102719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpellFXAnim2_160
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e18e401d8e044ba031ce8d22ed6da
+      internalID: 63035172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +3500,168 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpellFXAnim2_0: -1552045418
+      SpellFXAnim2_1: -1657198968
+      SpellFXAnim2_10: -515102868
+      SpellFXAnim2_100: 83688640
+      SpellFXAnim2_101: 831814076
+      SpellFXAnim2_102: -1254554166
+      SpellFXAnim2_103: 1376961411
+      SpellFXAnim2_104: -1497541399
+      SpellFXAnim2_105: -755920423
+      SpellFXAnim2_106: -1873162997
+      SpellFXAnim2_107: -1102231086
+      SpellFXAnim2_108: 1188425534
+      SpellFXAnim2_109: 1982243953
+      SpellFXAnim2_11: -1584203951
+      SpellFXAnim2_110: 1311604776
+      SpellFXAnim2_111: 798161385
+      SpellFXAnim2_112: 1793958054
+      SpellFXAnim2_113: -407419323
+      SpellFXAnim2_114: 1176727744
+      SpellFXAnim2_115: 1276965444
+      SpellFXAnim2_116: 1955254156
+      SpellFXAnim2_117: -758568662
+      SpellFXAnim2_118: -375598083
+      SpellFXAnim2_119: 331943829
+      SpellFXAnim2_12: 346623965
+      SpellFXAnim2_120: 1428247929
+      SpellFXAnim2_121: -1310341541
+      SpellFXAnim2_122: -1070352175
+      SpellFXAnim2_123: -1739174477
+      SpellFXAnim2_124: 1123214315
+      SpellFXAnim2_125: 2123472510
+      SpellFXAnim2_126: 1623401167
+      SpellFXAnim2_127: -583462369
+      SpellFXAnim2_128: -174603107
+      SpellFXAnim2_129: 2062293448
+      SpellFXAnim2_13: 63682869
+      SpellFXAnim2_130: 71297269
+      SpellFXAnim2_131: 1079525105
+      SpellFXAnim2_132: -1492568664
+      SpellFXAnim2_133: -1854900040
+      SpellFXAnim2_134: 151316155
+      SpellFXAnim2_135: -1998688969
+      SpellFXAnim2_136: 981815063
+      SpellFXAnim2_137: -1760328336
+      SpellFXAnim2_138: -165424247
+      SpellFXAnim2_139: -1823307572
+      SpellFXAnim2_14: -651868988
+      SpellFXAnim2_140: 1664874277
+      SpellFXAnim2_141: -383779789
+      SpellFXAnim2_142: -122081284
+      SpellFXAnim2_143: -1141902343
+      SpellFXAnim2_144: -1866141259
+      SpellFXAnim2_145: -1332062657
+      SpellFXAnim2_146: -1918640067
+      SpellFXAnim2_147: 1721782947
+      SpellFXAnim2_148: -769172888
+      SpellFXAnim2_149: 1834345019
+      SpellFXAnim2_15: 1127452771
+      SpellFXAnim2_150: 851981912
+      SpellFXAnim2_151: -767031091
+      SpellFXAnim2_152: 854479155
+      SpellFXAnim2_153: 1753621159
+      SpellFXAnim2_154: -907823758
+      SpellFXAnim2_155: -678707250
+      SpellFXAnim2_156: 617534189
+      SpellFXAnim2_157: -1090409952
+      SpellFXAnim2_158: -1556424036
+      SpellFXAnim2_159: -812102719
+      SpellFXAnim2_16: -2010945918
+      SpellFXAnim2_160: 63035172
+      SpellFXAnim2_17: 1424244317
+      SpellFXAnim2_18: -842344743
+      SpellFXAnim2_19: 1680216220
+      SpellFXAnim2_2: 436408692
+      SpellFXAnim2_20: 1523607867
+      SpellFXAnim2_21: 429674280
+      SpellFXAnim2_22: -1586889159
+      SpellFXAnim2_23: 925253815
+      SpellFXAnim2_24: 1622710529
+      SpellFXAnim2_25: -463566456
+      SpellFXAnim2_26: 1627975764
+      SpellFXAnim2_27: 716481378
+      SpellFXAnim2_28: -276998280
+      SpellFXAnim2_29: 494052628
+      SpellFXAnim2_3: -1226225395
+      SpellFXAnim2_30: -1416046699
+      SpellFXAnim2_31: 1536946487
+      SpellFXAnim2_32: -656019902
+      SpellFXAnim2_33: -1693495105
+      SpellFXAnim2_34: -2080866904
+      SpellFXAnim2_35: 882463320
+      SpellFXAnim2_36: 1659547882
+      SpellFXAnim2_37: 2019747507
+      SpellFXAnim2_38: -701979835
+      SpellFXAnim2_39: 375199773
+      SpellFXAnim2_4: -820455232
+      SpellFXAnim2_40: 664766090
+      SpellFXAnim2_41: 214348360
+      SpellFXAnim2_42: -192728158
+      SpellFXAnim2_43: 2047941560
+      SpellFXAnim2_44: 961748153
+      SpellFXAnim2_45: 515675302
+      SpellFXAnim2_46: -1106742372
+      SpellFXAnim2_47: -868159465
+      SpellFXAnim2_48: 147548976
+      SpellFXAnim2_49: -80384025
+      SpellFXAnim2_5: -968427366
+      SpellFXAnim2_50: -942914648
+      SpellFXAnim2_51: -1767115646
+      SpellFXAnim2_52: 2022306777
+      SpellFXAnim2_53: -423103235
+      SpellFXAnim2_54: 1114075751
+      SpellFXAnim2_55: -130973719
+      SpellFXAnim2_56: 195518449
+      SpellFXAnim2_57: -2115631683
+      SpellFXAnim2_58: -46624789
+      SpellFXAnim2_59: -2144961933
+      SpellFXAnim2_6: -1439948412
+      SpellFXAnim2_60: -743679243
+      SpellFXAnim2_61: -5863940
+      SpellFXAnim2_62: 1320987158
+      SpellFXAnim2_63: 1261378499
+      SpellFXAnim2_64: 1039910881
+      SpellFXAnim2_65: 1392257705
+      SpellFXAnim2_66: 276781034
+      SpellFXAnim2_67: 810517374
+      SpellFXAnim2_68: -1644876896
+      SpellFXAnim2_69: -1982317723
+      SpellFXAnim2_7: -1810600088
+      SpellFXAnim2_70: -1775358927
+      SpellFXAnim2_71: 411155703
+      SpellFXAnim2_72: -1314280548
+      SpellFXAnim2_73: 984015390
+      SpellFXAnim2_74: -896921847
+      SpellFXAnim2_75: -1051387441
+      SpellFXAnim2_76: -2034202204
+      SpellFXAnim2_77: -590419022
+      SpellFXAnim2_78: -1987375504
+      SpellFXAnim2_79: 1772664780
+      SpellFXAnim2_8: 598153904
+      SpellFXAnim2_80: 1483218267
+      SpellFXAnim2_81: -1811095807
+      SpellFXAnim2_82: -2072792074
+      SpellFXAnim2_83: -426297251
+      SpellFXAnim2_84: 546837704
+      SpellFXAnim2_85: -806078944
+      SpellFXAnim2_86: 1414782017
+      SpellFXAnim2_87: 823522914
+      SpellFXAnim2_88: 1154102764
+      SpellFXAnim2_89: 1342067867
+      SpellFXAnim2_9: 94649073
+      SpellFXAnim2_90: 1762232286
+      SpellFXAnim2_91: -1144250287
+      SpellFXAnim2_92: -690718611
+      SpellFXAnim2_93: 2029141928
+      SpellFXAnim2_94: -1268348061
+      SpellFXAnim2_95: -1949224419
+      SpellFXAnim2_96: 2083878135
+      SpellFXAnim2_97: 2090486204
+      SpellFXAnim2_98: -1358644107
+      SpellFXAnim2_99: -1693632630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

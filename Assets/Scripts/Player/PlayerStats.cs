@@ -123,6 +123,9 @@ public class PlayerStats : MonoBehaviour
             isInvincible = false;
         }
 
+        //This is just button cheat for testing and demo
+        if(Input.GetKey(KeyCode.Comma)) IncreaseExperience(100);
+        
         Recover();
     }
 
@@ -165,6 +168,9 @@ public class PlayerStats : MonoBehaviour
             experienceCap += experienceCapIncrease;
             UpdateLevelText();
             GameManager.instance.StartLevelUp();
+
+            if(experience >= experienceCap)
+                LevelUpChecker();
         }
     }
 
